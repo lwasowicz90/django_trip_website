@@ -1,0 +1,11 @@
+{%  extends 'trip/base.html' %}
+{%  block content %}
+    {% for offer in offers %}
+        <h1>{{ offer.country }}</h1>
+        <p>{{ offer.detailed_location }}</p>
+        <p>Od: {{ offer.from_date }}</p>
+        <p>Do: {{ offer.to_date }}</p>
+        <p>Cena: {{ offer.price }} zł</p>
+        <p>Stars: {% load my_filters %} {% for _ in offer.hotel_stars|make_range %}*{% endfor %}</p>
+    {% endfor %}
+{%  endblock %}
