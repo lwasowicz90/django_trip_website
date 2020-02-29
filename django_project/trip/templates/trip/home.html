@@ -1,11 +1,29 @@
-{%  extends 'trip/base.html' %}
+{% extends 'trip/base.html' %}
+{% load static %}
+
 {%  block content %}
-    {% for offer in offers %}
-        <h1>{{ offer.country }}</h1>
-        <p>{{ offer.detailed_location }}</p>
-        <p>Od: {{ offer.from_date }}</p>
-        <p>Do: {{ offer.to_date }}</p>
-        <p>Cena: {{ offer.price }} zł</p>
-        <p>Stars: {% load my_filters %} {% for _ in offer.hotel_stars|make_range %}*{% endfor %}</p>
-    {% endfor %}
-{%  endblock %}
+{% for offer in offers %}
+<div class="col-lg-4 col-sm-6">
+    <div class="services-item">
+        <div class="si-pic set-bg" data-setbg={{ offer.img_url }}>
+            <div class="service-icon">
+                <img src={{ offer.img_icon_url }} alt="">
+            </div>
+        </div>
+        <div class="si-text">
+            <h3 style="text-align: left; float: left;">{{ offer.detailed_location }} </h3>
+            <h4 style="text-align: left; float: left; display: inline; margin-top: 4px">&nbsp({{ offer.country }})</h4>
+            <hr style="clear: both;"/>
+            <h5 align="left">{{ offer.from_date }} - {{ offer.to_date }}</h5>
+            <h5 align="left">Standard: {% load my_filters %} {% for _ in offer.hotel_stars|make_range %}*&nbsp{% endfor %}</h5>
+            <h4 align="left">Cena: {{ offer.price }}</h4>
+
+
+        </div>
+    </div>
+</div>
+{% endfor %}
+
+{% endblock content %}
+
+
