@@ -29,7 +29,6 @@ class HttpRequestResolver():
         if not self.params:
             raise ParameterError(f"Parameters not set for request to {self.url}")
 
-        print(self.session)
         response = self.session.get(self.url, params=self.params, headers=self.headers)
 
         if not response.status_code == 200:
