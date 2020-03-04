@@ -19,7 +19,7 @@ offers = [
         'to_date': 'May 20, 2020',
         'price': '1803',
         'hotel_stars': 3,
-        'img_url': 'http://localhost:8000/static/trip/img/services/service-3.jpg',
+        'img_url': 'https://i.content4travel.com/cms/img/u/desktop/seres/tcpweka_0.jpg',
         'img_icon_url': 'http://localhost:8000/static/trip/img/services/service-icon-3.png',
     },
     {
