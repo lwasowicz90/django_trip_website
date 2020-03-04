@@ -1,5 +1,6 @@
 import datetime
 from bs4 import BeautifulSoup
+from requests.exceptions import Timeout, ConnectionError
 
 from django_project.search_engine import http
 
@@ -46,10 +47,16 @@ def get_http_request_info():
     }
 
 
+class MandatoryFieldError(AttributeError):
+    def __init__(self, msg):
+        self.msg = msg
+
+
 def extract_fields(orginal_json, category, provider_name):
     """Take only things that we need"""
     offers_container = orginal_json['data']
-    print(f"\t offers: {len(offers_container)}")
+    http.logger.debug(f"Found {len(offers_container)} record")
+
     result = []
     for item in offers_container:
         offer = {
@@ -70,43 +77,63 @@ def extract_fields(orginal_json, category, provider_name):
         }
 
         hotel_rating = item['ratings']['hotel']
-        if (hotel_rating):
+        if hotel_rating:
             offer['stars'] = hotel_rating/10
 
         overall_rating = item['ratings']['overall']
-        if (overall_rating):
+        if overall_rating:
             offer['overall'] = overall_rating/10
 
         """Country and City is not in any field directly but we can take it from some urls"""
-        # soup = BeautifulSoup(item['canonicalDestinationTitle'], features="html.parser")
-        # # needs to handle exeption if out of range:!!!!!!
-        # first_tag_with_value = soup.find('a')
-        # second_tag_with_value = first_tag_with_value.find_next()
-        # offer['country'] = first_tag_with_value.contents
-        # offer['city'] = second_tag_with_value.contents
+        soup = BeautifulSoup(item.get('canonicalDestinationTitle', ""), features="html.parser")
+
+        country_tag = soup.find('a')
+        if not country_tag:
+            raise MandatoryFieldError("Missing country name!")
+
+        city_tag = country_tag.find_next()
+        if not city_tag:
+            raise MandatoryFieldError("Missing country name!")
+
+        offer['country'] = country_tag.contents
+        offer['city'] = city_tag.contents
         result.append(offer)
 
     return result
 
 
 def get_offers_from_all_pages(url, headers, params, category, provider_name):
-    ##handle eceptions!
     resolver = http.RequestResolver(url=url, headers=headers)
     num = 1
     result = []
     while True:
-        print(f"parsing page: {num}")
+        http.logger.debug(f"Parsing page: {num}")
         params['page'] = num
         resolver.set_params(params)
-        resolver.resolve()
-        #remove is_valid and handle exeption
-        if not resolver.is_valid():
-            print("Resolver not valid ERROR")
+        try:
+            resolver.resolve()
+        except http.ParameterError as e:
+            http.logger.exception(e.msg)
             return None
+        except Timeout:
+            http.logger.exception("Timeout when connecting to {provider_name}!")
+            return None
+        except ConnectionError:
+            http.logger.exception("Couldn't connect to {provider_name}!")
+            return None
+        except http.ResponseCodeError as e:
+            http.logger.exception(e.msg)
+            continue
+
         offers_json = resolver.get_json()
-        parsed_offers = extract_fields(offers_json, category, provider_name)
+        try:
+            parsed_offers = extract_fields(offers_json, category, provider_name)
+        except MandatoryFieldError as e:
+            http.logger.error(e.msg)
+            continue
+
         if not parsed_offers:
-            print("not parsed_offers:")
+            http.logger.info(f"No records for page: {num}. Stopping {provider_name} provider.")
             break
         else:
             result.append(parsed_offers)
