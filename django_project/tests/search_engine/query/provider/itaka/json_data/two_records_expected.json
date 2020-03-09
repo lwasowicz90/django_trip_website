@@ -1,0 +1,40 @@
+{
+  "data": [
+    {
+      "country": "Madera",
+      "city": "Ribeira Brava",
+      "category": "some_category",
+      "provider": "some_provider",
+      "price": 158900,
+      "dateFrom": "2020-03-10",
+      "dateTo": "2020-03-17",
+      "duration": 8,
+      "url": "/wczasy/madera/hotel-do-campo,FNCCAMP.html?ofr_id=9b71286ada9eac3d531ba29c9bcad661fe855e5dcaf583b728df64481af1c756&adults=2&childs=0&currency=PLN",
+      "img_url": "https://i.content4travel.com/cms/img/u/desktop/seres/fnccamp_0.jpg",
+      "hotel": "Hotel Do Campo",
+      "reviews_cnt": 40,
+      "transport": "flight",
+      "departureFromCity": "Warszawa",
+      "hotel_rating": 40,
+      "overall_rating": 54
+    },
+    {
+      "country": "Madera",
+      "city": "Santa Cruz",
+      "category": "some_category",
+      "provider": "some_provider",
+      "price": 158900,
+      "dateFrom": "2020-03-10",
+      "dateTo": "2020-03-17",
+      "duration": 8,
+      "url": "/wczasy/madera/hotel-santa-cruz-village,FNCCRUZ.html?ofr_id=ded418e2d3c4d2d1f5b20fa46f587d9afe855e5dcaf583b728df64481af1c756&adults=2&childs=0&currency=PLN",
+      "img_url": "https://i.content4travel.com/cms/img/u/desktop/seres/fnccruz_0.jpg",
+      "hotel": "Hotel Santa Cruz Village",
+      "reviews_cnt": 57,
+      "transport": "flight",
+      "departureFromCity": "Warszawa",
+      "hotel_rating": 40,
+      "overall_rating": 52
+    }
+  ]
+}

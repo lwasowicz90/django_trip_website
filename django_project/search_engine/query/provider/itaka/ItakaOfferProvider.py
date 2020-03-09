@@ -1,9 +1,8 @@
-from . import trip_categories
-from . import OfferProviderInterface
-from . import utils
+from django_project.search_engine.query.provider import trip_categories, OfferProviderInterface
+from django_project.search_engine.query.provider.itaka import utils
 
 
-class ItakaOfferProvider(OfferProviderInterface.OfferProviderInterface):
+class ItakaOfferProvider(OfferProviderInterface):
     """header and params for http get request"""
     http_request_info = utils.get_http_request_info()
     provider_name = "Itaka"

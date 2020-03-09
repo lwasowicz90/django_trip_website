@@ -1,0 +1,3733 @@
+{
+    "data": [
+        {
+            "packageCode": "FNCCAMP",
+            "uid": "fnccamp",
+            "packageType": "wczasy",
+            "offerId": {
+                "itaka": "9b71286ada9eac3d531ba29c9bcad661fe855e5dcaf583b728df64481af1c756"
+            },
+            "price": 158900,
+            "currency": "PLN",
+            "dateFrom": "2020-03-10",
+            "dateTo": "2020-03-17",
+            "duration": 8,
+            "oldPrice": 284900,
+            "meal": "halfBoard",
+            "mealDetails": {
+                "id": "H",
+                "title": "2 posiłki"
+            },
+            "promotion": [
+                "lastMinute"
+            ],
+            "canonicalDestinationTitle": "<a href=\"https://www.itaka.pl/last-minute/madera/\">Madera</a> / Ribeira Brava",
+            "photos": {
+                "main": "https://i.content4travel.com/cms/img/u/desktop/seres/FNCCAMP.jpg",
+                "panorama": "https://i.content4travel.com/cms/img/u/null",
+                "tiny": "https://i.content4travel.com/cms/img/u/null",
+                "gallery": [
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fnccamp_0.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fnccamp_1.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fnccamp_2.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fnccamp_3.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fnccamp_4.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fnccamp_5.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fnccamp_6.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fnccamp_7.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fnccamp_8.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fnccamp_9.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fnccamp_10.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fnccamp_11.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fnccamp_12.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fnccamp_13.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fnccamp_14.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fnccamp_15.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fnccamp_16.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fnccamp_17.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fnccamp_18.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fnccamp_19.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fnccamp_20.jpg"
+                ],
+                "mobileGallery": []
+            },
+            "assets": [
+                "w spokojnej okolicy",
+                "piękne widoki",
+                "przestronne i wygodne pokoje",
+                "doskonała kuchnia",
+                "basen i centrum wellness",
+                "baza wypadowa do zwiedzania wyspy"
+            ],
+            "title": "Hotel Do Campo",
+            "ratings": {
+                "hotel": 40,
+                "overall": 54
+            },
+            "categoryTypes": [
+                {
+                    "id": "romantic-holidays",
+                    "title": "Romantyczne wakacje"
+                },
+                {
+                    "id": "free-wifi",
+                    "title": "Wi-Fi gratis"
+                }
+            ],
+            "tripDifficultyLevels": [],
+            "url": "/wczasy/madera/hotel-do-campo,FNCCAMP.html?ofr_id=9b71286ada9eac3d531ba29c9bcad661fe855e5dcaf583b728df64481af1c756&adults=2&childs=0&currency=PLN",
+            "reviewsCount": 40,
+            "isConfirmed": false,
+            "ownTransport": false,
+            "departureRegion": "warszawa",
+            "transport": "flight",
+            "offerStatus": "OK",
+            "departure": {
+                "id": "WAWFNC1",
+                "from": {
+                    "code": "WAW",
+                    "city": "Warszawa",
+                    "airportName": "Okęcie",
+                    "date": "2020-03-10",
+                    "time": "07:20"
+                },
+                "to": {
+                    "code": "FNC",
+                    "city": "Funchal",
+                    "airportName": "Funchal Airport",
+                    "date": "2020-03-10",
+                    "time": "11:40"
+                }
+            },
+            "return": {
+                "id": "FNCWAW1",
+                "from": {
+                    "code": "FNC",
+                    "city": "Funchal",
+                    "airportName": "Funchal Airport",
+                    "date": "2020-03-17",
+                    "time": "13:05"
+                },
+                "to": {
+                    "code": "WAW",
+                    "city": "Warszawa",
+                    "airportName": "Okęcie",
+                    "date": "2020-03-17",
+                    "time": "19:00"
+                }
+            },
+            "beachDistance": null,
+            "positiveReviewsPercentage": 100,
+            "tourCode": "",
+            "additionalHotel": {},
+            "isBestseller": false,
+            "reviewsRatings": {
+                "foodService": 5.1,
+                "highlights": 3.7,
+                "qualityByPrice": 5.1,
+                "animations": 2.9,
+                "beach": 3.1,
+                "hotel": 5.4,
+                "staff": 5.6,
+                "location": 5,
+                "room": 5.6,
+                "comfort": 4.8
+            },
+            "pricePerGroup": 317800,
+            "totalPrice": false
+        },
+        {
+            "packageCode": "FNCCRUZ",
+            "uid": "fnccruz",
+            "packageType": "wczasy",
+            "offerId": {
+                "itaka": "ded418e2d3c4d2d1f5b20fa46f587d9afe855e5dcaf583b728df64481af1c756"
+            },
+            "price": 158900,
+            "currency": "PLN",
+            "dateFrom": "2020-03-10",
+            "dateTo": "2020-03-17",
+            "duration": 8,
+            "oldPrice": 334900,
+            "meal": "halfBoard",
+            "mealDetails": {
+                "id": "H",
+                "title": "2 posiłki"
+            },
+            "promotion": [
+                "lastMinute"
+            ],
+            "canonicalDestinationTitle": "<a href=\"https://www.itaka.pl/last-minute/madera/\">Madera</a> / Santa Cruz",
+            "photos": {
+                "main": "https://i.content4travel.com/cms/img/u/desktop/seres/FNCCRUZ.jpg",
+                "panorama": "https://i.content4travel.com/cms/img/u/hotel/p/fnccruz_0.jpg?version=92",
+                "tiny": "https://i.content4travel.com/cms/img/u/hotel/m/fnccruz_0.jpg?version=92",
+                "gallery": [
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fnccruz_0.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fnccruz_1.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fnccruz_2.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fnccruz_3.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fnccruz_4.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fnccruz_5.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fnccruz_6.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fnccruz_7.jpg"
+                ],
+                "mobileGallery": []
+            },
+            "assets": [
+                "polecany na par",
+                "całkowicie odnowiony",
+                "nowoczesne pokoje",
+                "położony w centrum Santa Cruz",
+                "udogodnienia dla niepełnosprawnych"
+            ],
+            "title": "Hotel Santa Cruz Village",
+            "ratings": {
+                "hotel": 40,
+                "overall": 52
+            },
+            "categoryTypes": [
+                {
+                    "id": "romantic-holidays",
+                    "title": "Romantyczne wakacje"
+                },
+                {
+                    "id": "free-wifi",
+                    "title": "Wi-Fi gratis"
+                }
+            ],
+            "tripDifficultyLevels": [],
+            "url": "/wczasy/madera/hotel-santa-cruz-village,FNCCRUZ.html?ofr_id=ded418e2d3c4d2d1f5b20fa46f587d9afe855e5dcaf583b728df64481af1c756&adults=2&childs=0&currency=PLN",
+            "reviewsCount": 57,
+            "isConfirmed": false,
+            "ownTransport": false,
+            "departureRegion": "warszawa",
+            "transport": "flight",
+            "offerStatus": "OK",
+            "departure": {
+                "id": "WAWFNC1",
+                "from": {
+                    "code": "WAW",
+                    "city": "Warszawa",
+                    "airportName": "Okęcie",
+                    "date": "2020-03-10",
+                    "time": "07:20"
+                },
+                "to": {
+                    "code": "FNC",
+                    "city": "Funchal",
+                    "airportName": "Funchal Airport",
+                    "date": "2020-03-10",
+                    "time": "11:40"
+                }
+            },
+            "return": {
+                "id": "FNCWAW1",
+                "from": {
+                    "code": "FNC",
+                    "city": "Funchal",
+                    "airportName": "Funchal Airport",
+                    "date": "2020-03-17",
+                    "time": "13:05"
+                },
+                "to": {
+                    "code": "WAW",
+                    "city": "Warszawa",
+                    "airportName": "Okęcie",
+                    "date": "2020-03-17",
+                    "time": "19:00"
+                }
+            },
+            "beachDistance": 300,
+            "positiveReviewsPercentage": 93,
+            "tourCode": "",
+            "additionalHotel": {},
+            "isBestseller": false,
+            "reviewsRatings": {
+                "foodService": 4.4,
+                "highlights": 4.3,
+                "qualityByPrice": 4.8,
+                "animations": 2.9,
+                "beach": 4.1,
+                "hotel": 5.2,
+                "staff": 5.6,
+                "location": 4.9,
+                "room": 5.1,
+                "comfort": 5.1
+            },
+            "pricePerGroup": 317800,
+            "totalPrice": false
+        },
+        {
+            "packageCode": "ACENAZA",
+            "uid": "acenaza",
+            "packageType": "wczasy",
+            "offerId": {
+                "itaka": "da594300e7548f076bd9a8d90aeada542423a88c08045e91523e50676fdedff3"
+            },
+            "price": 159900,
+            "currency": "PLN",
+            "dateFrom": "2020-03-14",
+            "dateTo": "2020-03-21",
+            "duration": 8,
+            "oldPrice": 320900,
+            "meal": "halfBoard",
+            "mealDetails": {
+                "id": "H",
+                "title": "2 posiłki"
+            },
+            "promotion": [
+                "lastMinute"
+            ],
+            "canonicalDestinationTitle": "<a href=\"https://www.itaka.pl/last-minute/wyspy-kanaryjskie/\">Wyspy Kanaryjskie</a> / <a href=\"https://www.itaka.pl/last-minute/lanzarote/\">Lanzarote</a> / Teguise",
+            "photos": {
+                "main": "https://i.content4travel.com/cms/img/u/desktop/seres/ACENAZA.jpg",
+                "panorama": "https://i.content4travel.com/cms/img/u/hotel/p/acenaza_0.jpg?version=191205-08",
+                "tiny": "https://i.content4travel.com/cms/img/u/hotel/m/acenaza_0.jpg?version=191205-08",
+                "gallery": [
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/acenaza_0.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/acenaza_1.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/acenaza_2.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/acenaza_3.jpg"
+                ],
+                "mobileGallery": []
+            },
+            "assets": [
+                "w centrum Costa Teguise",
+                "blisko piaszczystej plaży",
+                "3 baseny, brodzik",
+                "4osobowe apartamenty z aneksami kuchennymi"
+            ],
+            "title": "Hotel Mansion Nazaret",
+            "ratings": {
+                "hotel": 30,
+                "overall": 48
+            },
+            "categoryTypes": [
+                {
+                    "id": "relax-with-family",
+                    "title": "Wypocznij z rodziną"
+                },
+                {
+                    "id": "make-some-follies",
+                    "title": "Oddaj się szaleństwu"
+                },
+                {
+                    "id": "free-wifi",
+                    "title": "Wi-Fi gratis"
+                }
+            ],
+            "tripDifficultyLevels": [],
+            "url": "/wczasy/wyspy-kanaryjskie/lanzarote/hotel-mansion-nazaret,ACENAZA.html?ofr_id=da594300e7548f076bd9a8d90aeada542423a88c08045e91523e50676fdedff3&adults=2&childs=0&currency=PLN",
+            "reviewsCount": 997,
+            "isConfirmed": false,
+            "ownTransport": false,
+            "departureRegion": "katowice",
+            "transport": "flight",
+            "offerStatus": "OK",
+            "departure": {
+                "id": "KTWACE1",
+                "from": {
+                    "code": "KTW",
+                    "city": "Katowice",
+                    "airportName": "Pyrzowice",
+                    "date": "2020-03-14",
+                    "time": "07:55"
+                },
+                "to": {
+                    "code": "ACE",
+                    "city": "Lanzarote",
+                    "airportName": "Arrecife",
+                    "date": "2020-03-14",
+                    "time": "12:10"
+                }
+            },
+            "return": {
+                "id": "ACEKTW1",
+                "from": {
+                    "code": "ACE",
+                    "city": "Lanzarote",
+                    "airportName": "Arrecife",
+                    "date": "2020-03-21",
+                    "time": "13:00"
+                },
+                "to": {
+                    "code": "KTW",
+                    "city": "Katowice",
+                    "airportName": "Pyrzowice",
+                    "date": "2020-03-21",
+                    "time": "18:50"
+                }
+            },
+            "beachDistance": 200,
+            "positiveReviewsPercentage": 93,
+            "tourCode": "",
+            "additionalHotel": {},
+            "isBestseller": false,
+            "reviewsRatings": {
+                "foodService": 4.8,
+                "highlights": 4.9,
+                "qualityByPrice": 4.9,
+                "animations": 2.3,
+                "beach": 5,
+                "hotel": 4.8,
+                "staff": 5.1,
+                "location": 5.3,
+                "room": 4.6,
+                "comfort": 4.6
+            },
+            "pricePerGroup": 319800,
+            "totalPrice": false
+        },
+        {
+            "packageCode": "LPACATA",
+            "uid": "lpacata",
+            "packageType": "wczasy",
+            "offerId": {
+                "itaka": "bc9e70e324c7cc1e1e5fc22aebe37bee4ae4624ede320a8963aefe1e9cd99327"
+            },
+            "price": 159900,
+            "currency": "PLN",
+            "dateFrom": "2020-03-06",
+            "dateTo": "2020-03-10",
+            "duration": 5,
+            "oldPrice": null,
+            "meal": "allInclusive",
+            "mealDetails": {
+                "id": "A",
+                "title": "All Inclusive 24 h"
+            },
+            "promotion": [
+                "lastMinute"
+            ],
+            "canonicalDestinationTitle": "<a href=\"https://www.itaka.pl/last-minute/wyspy-kanaryjskie/\">Wyspy Kanaryjskie</a> / <a href=\"https://www.itaka.pl/last-minute/gran-canaria/\">Gran Canaria</a> / Playa del Ingles",
+            "photos": {
+                "main": "https://i.content4travel.com/cms/img/u/desktop/seres/LPACATA.jpg",
+                "panorama": "https://i.content4travel.com/cms/img/u/hotel/p/lpacata_0.jpg?version=191206-10",
+                "tiny": "https://i.content4travel.com/cms/img/u/hotel/m/lpacata_0.jpg?version=191206-10",
+                "gallery": [
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/lpacata_0.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/lpacata_1.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/lpacata_2.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/lpacata_3.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/lpacata_5.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/lpacata_6.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/lpacata_7.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/lpacata_8.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/lpacata_9.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/lpacata_10.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/lpacata_11.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/lpacata_12.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/lpacata_13.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/lpacata_14.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/lpacata_15.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/lpacata_16.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/lpacata_18.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/lpacata_19.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/lpacata_20.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/lpacata_21.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/lpacata_22.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/lpacata_23.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/lpacata_24.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/lpacata_25.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/lpacata_26.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/lpacata_27.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/lpacata_28.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/lpacata_29.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/lpacata_30.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/lpacata_31.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/lpacata_32.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/lpacata_33.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/lpacata_34.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/lpacata_35.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/lpacata_36.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/lpacata_37.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/lpacata_38.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/lpacata_39.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/lpacata_40.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/lpacata_41.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/lpacata_42.jpg"
+                ],
+                "mobileGallery": []
+            },
+            "assets": [
+                "wypoczynek z rodziną",
+                "nowoczesny design",
+                "animacje dla dorosłych i dzieci",
+                "blisko centrum ze sklepami i barami",
+                "przestronne pokoje",
+                "3 baseny",
+                "Żagiel Itaki"
+            ],
+            "title": "Hotel Abora Catarina",
+            "ratings": {
+                "hotel": 45,
+                "overall": 51
+            },
+            "categoryTypes": [
+                {
+                    "id": "make-some-follies",
+                    "title": "Oddaj się szaleństwu"
+                },
+                {
+                    "id": "bet-on-activity",
+                    "title": "Postaw na aktywność"
+                },
+                {
+                    "id": "free-wifi",
+                    "title": "Wi-Fi gratis"
+                },
+                {
+                    "id": "relax-with-family",
+                    "title": "Wypocznij z rodziną"
+                },
+                {
+                    "id": "itaka-certificate",
+                    "title": "Żagiel Itaki"
+                }
+            ],
+            "tripDifficultyLevels": [],
+            "url": "/wczasy/wyspy-kanaryjskie/gran-canaria/hotel-abora-catarina,LPACATA.html?ofr_id=bc9e70e324c7cc1e1e5fc22aebe37bee4ae4624ede320a8963aefe1e9cd99327&adults=2&childs=0&currency=PLN",
+            "reviewsCount": 898,
+            "isConfirmed": false,
+            "ownTransport": false,
+            "departureRegion": "warszawa",
+            "transport": "flight",
+            "offerStatus": "OK",
+            "departure": {
+                "id": "WAWLPA2",
+                "from": {
+                    "code": "WAW",
+                    "city": "Warszawa",
+                    "airportName": "Okęcie",
+                    "date": "2020-03-06",
+                    "time": "08:30"
+                },
+                "to": {
+                    "code": "LPA",
+                    "city": "Gran Canaria",
+                    "airportName": "Las Palmas",
+                    "date": "2020-03-06",
+                    "time": "13:30"
+                }
+            },
+            "return": {
+                "id": "LPAWAW1",
+                "from": {
+                    "code": "LPA",
+                    "city": "Gran Canaria",
+                    "airportName": "Las Palmas",
+                    "date": "2020-03-10",
+                    "time": "14:30"
+                },
+                "to": {
+                    "code": "WAW",
+                    "city": "Warszawa",
+                    "airportName": "Okęcie",
+                    "date": "2020-03-10",
+                    "time": "21:15"
+                }
+            },
+            "beachDistance": 900,
+            "positiveReviewsPercentage": 95,
+            "tourCode": "",
+            "additionalHotel": {},
+            "isBestseller": false,
+            "reviewsRatings": {
+                "foodService": 5.2,
+                "highlights": 4.8,
+                "qualityByPrice": 4.9,
+                "animations": 4.5,
+                "beach": 5.1,
+                "hotel": 5.1,
+                "staff": 5.4,
+                "location": 5.2,
+                "room": 5.1,
+                "comfort": 4.8
+            },
+            "pricePerGroup": 319800,
+            "totalPrice": false
+        },
+        {
+            "packageCode": "LPAINTA",
+            "uid": "lpainta",
+            "packageType": "wczasy",
+            "offerId": {
+                "itaka": "0147c045be4d613b2126de123be019c94ae4624ede320a8963aefe1e9cd99327"
+            },
+            "price": 159900,
+            "currency": "PLN",
+            "dateFrom": "2020-03-06",
+            "dateTo": "2020-03-10",
+            "duration": 5,
+            "oldPrice": null,
+            "meal": "allInclusive",
+            "mealDetails": {
+                "id": "A",
+                "title": "All inclusive 24h"
+            },
+            "promotion": [
+                "lastMinute"
+            ],
+            "canonicalDestinationTitle": "<a href=\"https://www.itaka.pl/last-minute/wyspy-kanaryjskie/\">Wyspy Kanaryjskie</a> / <a href=\"https://www.itaka.pl/last-minute/gran-canaria/\">Gran Canaria</a> / San Agustin",
+            "photos": {
+                "main": "https://i.content4travel.com/cms/img/u/desktop/seres/LPAINTA.jpg",
+                "panorama": "https://i.content4travel.com/cms/img/u/null",
+                "tiny": "https://i.content4travel.com/cms/img/u/null",
+                "gallery": [
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/lpainta_0.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/lpainta_1.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/lpainta_2.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/lpainta_3.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/lpainta_4.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/lpainta_5.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/lpainta_6.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/lpainta_7.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/lpainta_8.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/lpainta_9.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/lpainta_10.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/lpainta_11.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/lpainta_12.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/lpainta_13.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/lpainta_14.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/lpainta_15.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/lpainta_16.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/lpainta_17.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/lpainta_18.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/lpainta_19.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/lpainta_20.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/lpainta_21.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/lpainta_22.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/lpainta_23.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/lpainta_24.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/lpainta_25.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/lpainta_26.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/lpainta_27.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/lpainta_28.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/lpainta_29.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/lpainta_30.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/lpainta_31.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/lpainta_32.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/lpainta_33.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/lpainta_34.jpg"
+                ],
+                "mobileGallery": []
+            },
+            "assets": [
+                "wakacje z dziećmi",
+                "duże pokoje rodzinne",
+                "tropikalny ogród z widokiem na ocean",
+                "basen ze zjeżdżalniami",
+                "3 jacuzzi",
+                "animacje 6 dni w tygodniu",
+                "pokoje i baseny dla dorosłych",
+                "całkowicie odnowiony w 2019 r."
+            ],
+            "title": "Hotel Abora Interclub Atlantic",
+            "ratings": {
+                "hotel": 40,
+                "overall": 50
+            },
+            "categoryTypes": [
+                {
+                    "id": "bet-on-activity",
+                    "title": "Postaw na aktywność"
+                },
+                {
+                    "id": "relax-with-family",
+                    "title": "Wypocznij z rodziną"
+                },
+                {
+                    "id": "free-wifi",
+                    "title": "Wi-Fi gratis"
+                }
+            ],
+            "tripDifficultyLevels": [],
+            "url": "/wczasy/wyspy-kanaryjskie/gran-canaria/hotel-abora-interclub-atlantic,LPAINTA.html?ofr_id=0147c045be4d613b2126de123be019c94ae4624ede320a8963aefe1e9cd99327&adults=2&childs=0&currency=PLN",
+            "reviewsCount": 59,
+            "isConfirmed": false,
+            "ownTransport": false,
+            "departureRegion": "warszawa",
+            "transport": "flight",
+            "offerStatus": "OK",
+            "departure": {
+                "id": "WAWLPA2",
+                "from": {
+                    "code": "WAW",
+                    "city": "Warszawa",
+                    "airportName": "Okęcie",
+                    "date": "2020-03-06",
+                    "time": "08:30"
+                },
+                "to": {
+                    "code": "LPA",
+                    "city": "Gran Canaria",
+                    "airportName": "Las Palmas",
+                    "date": "2020-03-06",
+                    "time": "13:30"
+                }
+            },
+            "return": {
+                "id": "LPAWAW1",
+                "from": {
+                    "code": "LPA",
+                    "city": "Gran Canaria",
+                    "airportName": "Las Palmas",
+                    "date": "2020-03-10",
+                    "time": "14:30"
+                },
+                "to": {
+                    "code": "WAW",
+                    "city": "Warszawa",
+                    "airportName": "Okęcie",
+                    "date": "2020-03-10",
+                    "time": "21:15"
+                }
+            },
+            "beachDistance": null,
+            "positiveReviewsPercentage": 90,
+            "tourCode": "",
+            "additionalHotel": {},
+            "isBestseller": true,
+            "reviewsRatings": {
+                "foodService": 5.2,
+                "highlights": 4.2,
+                "qualityByPrice": 4.7,
+                "animations": 4.2,
+                "beach": 4.6,
+                "hotel": 5,
+                "staff": 5.4,
+                "location": 4.6,
+                "room": 5.1,
+                "comfort": 4.8
+            },
+            "pricePerGroup": 319800,
+            "totalPrice": false
+        },
+        {
+            "packageCode": "RMFBRAY",
+            "uid": "rmfbray",
+            "packageType": "wczasy",
+            "offerId": {
+                "itaka": "ba887b7e9ca5457424ab0cd4b0c6c7273745f4a7f8f489589ad0431e72277bf9"
+            },
+            "price": 159900,
+            "currency": "PLN",
+            "dateFrom": "2020-03-07",
+            "dateTo": "2020-03-15",
+            "duration": 8,
+            "oldPrice": 328900,
+            "meal": "allInclusive",
+            "mealDetails": {
+                "id": "A",
+                "title": "All inclusive"
+            },
+            "promotion": [
+                "lastMinute"
+            ],
+            "canonicalDestinationTitle": "<a href=\"https://www.itaka.pl/last-minute/egipt/\">Egipt</a> / <a href=\"https://www.itaka.pl/last-minute/marsa-alam/\">Marsa Alam</a>",
+            "photos": {
+                "main": "https://i.content4travel.com/cms/img/u/desktop/seres/RMFBRAY.jpg",
+                "panorama": "https://i.content4travel.com/cms/img/u/hotel/p/rmfbray_0.jpg?version=200109-06",
+                "tiny": "https://i.content4travel.com/cms/img/u/hotel/m/rmfbray_0.jpg?version=200109-06",
+                "gallery": [
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/rmfbray_0.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/rmfbray_1.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/rmfbray_2.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/rmfbray_3.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/rmfbray_4.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/rmfbray_5.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/rmfbray_6.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/rmfbray_7.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/rmfbray_8.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/rmfbray_9.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/rmfbray_10.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/rmfbray_11.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/rmfbray_12.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/rmfbray_13.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/rmfbray_14.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/rmfbray_15.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/rmfbray_16.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/rmfbray_17.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/rmfbray_18.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/rmfbray_19.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/rmfbray_20.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/rmfbray_21.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/rmfbray_22.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/rmfbray_23.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/rmfbray_24.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/rmfbray_25.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/rmfbray_26.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/rmfbray_27.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/rmfbray_28.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/rmfbray_29.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/rmfbray_30.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/rmfbray_31.jpg"
+                ],
+                "mobileGallery": []
+            },
+            "assets": [
+                "lubiany przez rodziny",
+                "przy rafie koralowej",
+                "zielony, palmowy ogród",
+                "basen i brodzik dla dzieci",
+                "przestronne pokoje"
+            ],
+            "title": "Hotel Brayka Bay Resort",
+            "ratings": {
+                "hotel": 45,
+                "overall": 51
+            },
+            "categoryTypes": [
+                {
+                    "id": "bet-on-activity",
+                    "title": "Postaw na aktywność"
+                },
+                {
+                    "id": "beach-service-in-price",
+                    "title": "Serwis plażowy w cenie"
+                }
+            ],
+            "tripDifficultyLevels": [],
+            "url": "/wczasy/egipt/marsa-alam/hotel-brayka-bay-resort,RMFBRAY.html?ofr_id=ba887b7e9ca5457424ab0cd4b0c6c7273745f4a7f8f489589ad0431e72277bf9&adults=2&childs=0&currency=PLN",
+            "reviewsCount": 333,
+            "isConfirmed": false,
+            "ownTransport": false,
+            "departureRegion": "katowice",
+            "transport": "flight",
+            "offerStatus": "OK",
+            "departure": {
+                "id": "KTWRMF1",
+                "from": {
+                    "code": "KTW",
+                    "city": "Katowice",
+                    "airportName": "Pyrzowice",
+                    "date": "2020-03-07",
+                    "time": "06:00"
+                },
+                "to": {
+                    "code": "RMF",
+                    "city": "Marsa Alam",
+                    "airportName": "Marsa Alam Intl",
+                    "date": "2020-03-07",
+                    "time": "11:20"
+                }
+            },
+            "return": {
+                "id": "RMFKTW1",
+                "from": {
+                    "code": "RMF",
+                    "city": "Marsa Alam",
+                    "airportName": "Marsa Alam Intl",
+                    "date": "2020-03-15",
+                    "time": "00:40"
+                },
+                "to": {
+                    "code": "KTW",
+                    "city": "Katowice",
+                    "airportName": "Pyrzowice",
+                    "date": "2020-03-15",
+                    "time": "04:20"
+                }
+            },
+            "beachDistance": 0,
+            "positiveReviewsPercentage": 97,
+            "tourCode": "",
+            "additionalHotel": {},
+            "isBestseller": false,
+            "reviewsRatings": {
+                "foodService": 4.8,
+                "highlights": 3.4,
+                "qualityByPrice": 4.7,
+                "animations": 3.9,
+                "beach": 5.6,
+                "hotel": 5.1,
+                "staff": 5.2,
+                "location": 5.5,
+                "room": 4.7,
+                "comfort": 4.6
+            },
+            "pricePerGroup": 319800,
+            "totalPrice": false
+        },
+        {
+            "packageCode": "TFSLAPI",
+            "uid": "tfslapi",
+            "packageType": "wczasy",
+            "offerId": {
+                "itaka": "738e2c23cffb22b32526536c3c71203e0c6a28a2b8e22b431941bad398bd9996"
+            },
+            "price": 159900,
+            "currency": "PLN",
+            "dateFrom": "2020-03-05",
+            "dateTo": "2020-03-12",
+            "duration": 8,
+            "oldPrice": 370900,
+            "meal": "allInclusive",
+            "mealDetails": {
+                "id": "A",
+                "title": "All inclusive"
+            },
+            "promotion": [
+                "lastMinute"
+            ],
+            "canonicalDestinationTitle": "<a href=\"https://www.itaka.pl/last-minute/wyspy-kanaryjskie/\">Wyspy Kanaryjskie</a> / <a href=\"https://www.itaka.pl/last-minute/teneryfa/\">Teneryfa</a> / Playa de las Americas",
+            "photos": {
+                "main": "https://i.content4travel.com/cms/img/u/desktop/seres/TFSLAPI.jpg",
+                "panorama": "https://i.content4travel.com/cms/img/u/hotel/p/tfslapi_0.jpg?version=191205-09",
+                "tiny": "https://i.content4travel.com/cms/img/u/hotel/m/tfslapi_0.jpg?version=191205-09",
+                "gallery": [
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/tfslapi_0.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/tfslapi_1.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/tfslapi_2.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/tfslapi_3.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/tfslapi_4.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/tfslapi_5.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/tfslapi_6.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/tfslapi_7.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/tfslapi_8.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/tfslapi_9.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/tfslapi_10.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/tfslapi_11.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/tfslapi_12.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/tfslapi_13.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/tfslapi_14.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/tfslapi_15.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/tfslapi_16.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/tfslapi_17.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/tfslapi_18.jpg"
+                ],
+                "mobileGallery": []
+            },
+            "assets": [
+                "aktywne wakacje",
+                "zadbane studia",
+                "w centrum Playa de las Americas",
+                "4 baseny, brodzik"
+            ],
+            "title": "Hotel Las Piramides",
+            "ratings": {
+                "hotel": 30,
+                "overall": 38
+            },
+            "categoryTypes": [
+                {
+                    "id": "bet-on-activity",
+                    "title": "Postaw na aktywność"
+                },
+                {
+                    "id": "relax-with-family",
+                    "title": "Wypocznij z rodziną"
+                },
+                {
+                    "id": "make-some-follies",
+                    "title": "Oddaj się szaleństwu"
+                }
+            ],
+            "tripDifficultyLevels": [],
+            "url": "/wczasy/wyspy-kanaryjskie/teneryfa/hotel-las-piramides,TFSLAPI.html?ofr_id=738e2c23cffb22b32526536c3c71203e0c6a28a2b8e22b431941bad398bd9996&adults=2&childs=0&currency=PLN",
+            "reviewsCount": 190,
+            "isConfirmed": false,
+            "ownTransport": false,
+            "departureRegion": "gdansk",
+            "transport": "flight",
+            "offerStatus": "OK",
+            "departure": {
+                "id": "GDNTFS1",
+                "from": {
+                    "code": "GDN",
+                    "city": "Gdańsk",
+                    "airportName": "Rębiechowo",
+                    "date": "2020-03-05",
+                    "time": "19:40"
+                },
+                "to": {
+                    "code": "TFS",
+                    "city": "Teneryfa",
+                    "airportName": "Sur Reina Sofia",
+                    "date": "2020-03-06",
+                    "time": "00:35"
+                }
+            },
+            "return": {
+                "id": "TFSGDN1",
+                "from": {
+                    "code": "TFS",
+                    "city": "Teneryfa",
+                    "airportName": "Sur Reina Sofia",
+                    "date": "2020-03-12",
+                    "time": "12:10"
+                },
+                "to": {
+                    "code": "GDN",
+                    "city": "Gdańsk",
+                    "airportName": "Rębiechowo",
+                    "date": "2020-03-12",
+                    "time": "18:40"
+                }
+            },
+            "beachDistance": 700,
+            "positiveReviewsPercentage": 60,
+            "tourCode": "",
+            "additionalHotel": {},
+            "isBestseller": false,
+            "reviewsRatings": {
+                "foodService": 4.3,
+                "highlights": 4.9,
+                "qualityByPrice": 4.3,
+                "animations": 2.5,
+                "beach": 4.7,
+                "hotel": 3.8,
+                "staff": 4.7,
+                "location": 5.1,
+                "room": 4,
+                "comfort": 4.9
+            },
+            "pricePerGroup": 319800,
+            "totalPrice": false
+        },
+        {
+            "packageCode": "FNCDOMB",
+            "uid": "fncdomb",
+            "packageType": "wczasy",
+            "offerId": {
+                "itaka": "85a3f717ad71b67e838c9f3ceef3a9e0fe855e5dcaf583b728df64481af1c756"
+            },
+            "price": 167900,
+            "currency": "PLN",
+            "dateFrom": "2020-03-10",
+            "dateTo": "2020-03-17",
+            "duration": 8,
+            "oldPrice": 314900,
+            "meal": "halfBoard",
+            "mealDetails": {
+                "id": "H",
+                "title": "2 posiłki"
+            },
+            "promotion": [
+                "lastMinute"
+            ],
+            "canonicalDestinationTitle": "<a href=\"https://www.itaka.pl/last-minute/madera/\">Madera</a> / Machico",
+            "photos": {
+                "main": "https://i.content4travel.com/cms/img/u/desktop/seres/FNCDOMB.jpg",
+                "panorama": "https://i.content4travel.com/cms/img/u/hotel/p/fncdomb_0.jpg?version=191205-09",
+                "tiny": "https://i.content4travel.com/cms/img/u/hotel/m/fncdomb_0.jpg?version=191205-09",
+                "gallery": [
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncdomb_0.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncdomb_1.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncdomb_2.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncdomb_3.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncdomb_4.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncdomb_5.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncdomb_6.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncdomb_7.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncdomb_8.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncdomb_9.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncdomb_10.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncdomb_11.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncdomb_12.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncdomb_13.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncdomb_14.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncdomb_15.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncdomb_16.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncdomb_17.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncdomb_18.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncdomb_19.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncdomb_20.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncdomb_21.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncdomb_22.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncdomb_23.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncdomb_25.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncdomb_26.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncdomb_27.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncdomb_28.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncdomb_29.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncdomb_30.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncdomb_31.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncdomb_32.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncdomb_33.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncdomb_34.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncdomb_35.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncdomb_36.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncdomb_37.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncdomb_38.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncdomb_39.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncdomb_40.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncdomb_41.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncdomb_42.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncdomb_43.jpg"
+                ],
+                "mobileGallery": []
+            },
+            "assets": [
+                "blisko wyjątkowej, złotej plaży utworzonej z piasku Sahary",
+                "malowniczo położony: pomiędzy górami i oceanem",
+                "blisko centrum Machico, drugiej co do wielkości miejscowości wyspy"
+            ],
+            "title": "Hotel Dom Pedro Madeira Ocean Beach",
+            "ratings": {
+                "hotel": 40,
+                "overall": 45
+            },
+            "categoryTypes": [
+                {
+                    "id": "bet-on-activity",
+                    "title": "Postaw na aktywność"
+                },
+                {
+                    "id": "free-wifi",
+                    "title": "Wi-Fi gratis"
+                }
+            ],
+            "tripDifficultyLevels": [],
+            "url": "/wczasy/madera/hotel-dom-pedro-madeira-ocean-beach,FNCDOMB.html?ofr_id=85a3f717ad71b67e838c9f3ceef3a9e0fe855e5dcaf583b728df64481af1c756&adults=2&childs=0&currency=PLN",
+            "reviewsCount": 1315,
+            "isConfirmed": false,
+            "ownTransport": false,
+            "departureRegion": "warszawa",
+            "transport": "flight",
+            "offerStatus": "OK",
+            "departure": {
+                "id": "WAWFNC1",
+                "from": {
+                    "code": "WAW",
+                    "city": "Warszawa",
+                    "airportName": "Okęcie",
+                    "date": "2020-03-10",
+                    "time": "07:20"
+                },
+                "to": {
+                    "code": "FNC",
+                    "city": "Funchal",
+                    "airportName": "Funchal Airport",
+                    "date": "2020-03-10",
+                    "time": "11:40"
+                }
+            },
+            "return": {
+                "id": "FNCWAW1",
+                "from": {
+                    "code": "FNC",
+                    "city": "Funchal",
+                    "airportName": "Funchal Airport",
+                    "date": "2020-03-17",
+                    "time": "13:05"
+                },
+                "to": {
+                    "code": "WAW",
+                    "city": "Warszawa",
+                    "airportName": "Okęcie",
+                    "date": "2020-03-17",
+                    "time": "19:00"
+                }
+            },
+            "beachDistance": 300,
+            "positiveReviewsPercentage": 86,
+            "tourCode": "",
+            "additionalHotel": {},
+            "isBestseller": false,
+            "reviewsRatings": {
+                "foodService": 4.4,
+                "highlights": 4.2,
+                "qualityByPrice": 4.6,
+                "animations": 3.3,
+                "beach": 4.9,
+                "hotel": 4.5,
+                "staff": 5.2,
+                "location": 5.4,
+                "room": 4.5,
+                "comfort": 4.8
+            },
+            "pricePerGroup": 335800,
+            "totalPrice": false
+        },
+        {
+            "packageCode": "FNCESTA",
+            "uid": "fncesta",
+            "packageType": "wczasy",
+            "offerId": {
+                "itaka": "acf4d9b00ecb7783d7c7e7420fd65c87fe855e5dcaf583b728df64481af1c756"
+            },
+            "price": 167900,
+            "currency": "PLN",
+            "dateFrom": "2020-03-10",
+            "dateTo": "2020-03-17",
+            "duration": 8,
+            "oldPrice": 294900,
+            "meal": "halfBoard",
+            "mealDetails": {
+                "id": "H",
+                "title": "2 posiłki"
+            },
+            "promotion": [
+                "lastMinute"
+            ],
+            "canonicalDestinationTitle": "<a href=\"https://www.itaka.pl/last-minute/madera/\">Madera</a> / Sao Vicente",
+            "photos": {
+                "main": "https://i.content4travel.com/cms/img/u/desktop/seres/FNCESTA.jpg",
+                "panorama": "https://i.content4travel.com/cms/img/u/hotel/p/fncesta_0.jpg?version=191205-09",
+                "tiny": "https://i.content4travel.com/cms/img/u/hotel/m/fncesta_0.jpg?version=191205-09",
+                "gallery": [
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncesta_0.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncesta_1.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncesta_2.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncesta_3.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncesta_4.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncesta_5.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncesta_6.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncesta_7.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncesta_8.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncesta_9.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncesta_10.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncesta_11.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncesta_12.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncesta_13.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncesta_14.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncesta_15.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncesta_16.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncesta_17.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncesta_18.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncesta_19.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncesta_20.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncesta_21.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncesta_22.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncesta_23.jpg"
+                ],
+                "mobileGallery": []
+            },
+            "assets": [
+                "pięknie położony przy klifach",
+                "widok na ocean",
+                "kryty basen i jacuzzi",
+                "wysoki standard usług",
+                "pyszna kuchnia"
+            ],
+            "title": "Hotel Estalagem do Mar",
+            "ratings": {
+                "hotel": 40,
+                "overall": 49
+            },
+            "categoryTypes": [
+                {
+                    "id": "romantic-holidays",
+                    "title": "Romantyczne wakacje"
+                },
+                {
+                    "id": "free-wifi",
+                    "title": "Wi-Fi gratis"
+                }
+            ],
+            "tripDifficultyLevels": [],
+            "url": "/wczasy/madera/hotel-estalagem-do-mar,FNCESTA.html?ofr_id=acf4d9b00ecb7783d7c7e7420fd65c87fe855e5dcaf583b728df64481af1c756&adults=2&childs=0&currency=PLN",
+            "reviewsCount": 594,
+            "isConfirmed": false,
+            "ownTransport": false,
+            "departureRegion": "warszawa",
+            "transport": "flight",
+            "offerStatus": "OK",
+            "departure": {
+                "id": "WAWFNC1",
+                "from": {
+                    "code": "WAW",
+                    "city": "Warszawa",
+                    "airportName": "Okęcie",
+                    "date": "2020-03-10",
+                    "time": "07:20"
+                },
+                "to": {
+                    "code": "FNC",
+                    "city": "Funchal",
+                    "airportName": "Funchal Airport",
+                    "date": "2020-03-10",
+                    "time": "11:40"
+                }
+            },
+            "return": {
+                "id": "FNCWAW1",
+                "from": {
+                    "code": "FNC",
+                    "city": "Funchal",
+                    "airportName": "Funchal Airport",
+                    "date": "2020-03-17",
+                    "time": "13:05"
+                },
+                "to": {
+                    "code": "WAW",
+                    "city": "Warszawa",
+                    "airportName": "Okęcie",
+                    "date": "2020-03-17",
+                    "time": "19:00"
+                }
+            },
+            "beachDistance": 10,
+            "positiveReviewsPercentage": 93,
+            "tourCode": "",
+            "additionalHotel": {},
+            "isBestseller": true,
+            "reviewsRatings": {
+                "foodService": 4.4,
+                "highlights": 4.3,
+                "qualityByPrice": 4.9,
+                "animations": 3,
+                "beach": 3.2,
+                "hotel": 4.9,
+                "staff": 5.1,
+                "location": 5.3,
+                "room": 5,
+                "comfort": 4.8
+            },
+            "pricePerGroup": 335800,
+            "totalPrice": false
+        },
+        {
+            "packageCode": "FNCDUAS",
+            "uid": "fncduas",
+            "packageType": "wczasy",
+            "offerId": {
+                "itaka": "a878546192f7daa02b4e8d9488de0761fe855e5dcaf583b728df64481af1c756"
+            },
+            "price": 168900,
+            "currency": "PLN",
+            "dateFrom": "2020-03-10",
+            "dateTo": "2020-03-17",
+            "duration": 8,
+            "oldPrice": 314900,
+            "meal": "breakfast",
+            "mealDetails": {
+                "id": "F",
+                "title": "Śniadania"
+            },
+            "promotion": [
+                "lastMinute"
+            ],
+            "canonicalDestinationTitle": "<a href=\"https://www.itaka.pl/last-minute/madera/\">Madera</a> / Funchal",
+            "photos": {
+                "main": "https://i.content4travel.com/cms/img/u/desktop/seres/FNCDUAS.jpg",
+                "panorama": "https://i.content4travel.com/cms/img/u/hotel/p/fncduas_0.jpg?version=191205-09",
+                "tiny": "https://i.content4travel.com/cms/img/u/hotel/m/fncduas_0.jpg?version=191205-09",
+                "gallery": [
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncduas_0.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncduas_1.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncduas_2.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncduas_3.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncduas_4.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncduas_5.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncduas_6.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncduas_7.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncduas_8.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncduas_9.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncduas_10.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncduas_11.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncduas_12.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncduas_13.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncduas_14.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncduas_15.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncduas_16.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncduas_17.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncduas_18.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncduas_19.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncduas_20.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncduas_21.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncduas_22.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncduas_23.jpg"
+                ],
+                "mobileGallery": []
+            },
+            "assets": [
+                "blisko centrum Funchal",
+                "basen z widokiem na ocean",
+                "nowoczesne pokoje z aneksem kuchennym",
+                "kąpieliska Lido i Ponta Gorda"
+            ],
+            "title": "Hotel Duas Torres",
+            "ratings": {
+                "hotel": 40,
+                "overall": 50
+            },
+            "categoryTypes": [
+                {
+                    "id": "relax-with-family",
+                    "title": "Wypocznij z rodziną"
+                },
+                {
+                    "id": "free-wifi",
+                    "title": "Wi-Fi gratis"
+                }
+            ],
+            "tripDifficultyLevels": [],
+            "url": "/wczasy/madera/hotel-duas-torres,FNCDUAS.html?ofr_id=a878546192f7daa02b4e8d9488de0761fe855e5dcaf583b728df64481af1c756&adults=2&childs=0&currency=PLN",
+            "reviewsCount": 200,
+            "isConfirmed": false,
+            "ownTransport": false,
+            "departureRegion": "warszawa",
+            "transport": "flight",
+            "offerStatus": "OK",
+            "departure": {
+                "id": "WAWFNC1",
+                "from": {
+                    "code": "WAW",
+                    "city": "Warszawa",
+                    "airportName": "Okęcie",
+                    "date": "2020-03-10",
+                    "time": "07:20"
+                },
+                "to": {
+                    "code": "FNC",
+                    "city": "Funchal",
+                    "airportName": "Funchal Airport",
+                    "date": "2020-03-10",
+                    "time": "11:40"
+                }
+            },
+            "return": {
+                "id": "FNCWAW1",
+                "from": {
+                    "code": "FNC",
+                    "city": "Funchal",
+                    "airportName": "Funchal Airport",
+                    "date": "2020-03-17",
+                    "time": "13:05"
+                },
+                "to": {
+                    "code": "WAW",
+                    "city": "Warszawa",
+                    "airportName": "Okęcie",
+                    "date": "2020-03-17",
+                    "time": "19:00"
+                }
+            },
+            "beachDistance": 400,
+            "positiveReviewsPercentage": 93,
+            "tourCode": "",
+            "additionalHotel": {},
+            "isBestseller": false,
+            "reviewsRatings": {
+                "foodService": 4.1,
+                "highlights": 4.8,
+                "qualityByPrice": 4.7,
+                "animations": 2.7,
+                "beach": 3.3,
+                "hotel": 5,
+                "staff": 5.1,
+                "location": 5.4,
+                "room": 5,
+                "comfort": 4.8
+            },
+            "pricePerGroup": 337800,
+            "totalPrice": false
+        },
+        {
+            "packageCode": "AGPPLAY",
+            "uid": "agpplay",
+            "packageType": "wczasy",
+            "offerId": {
+                "itaka": "f74ea958ce1c7960167275a41877e9ba64cd6059cd31e9dd8d91733d3747742c"
+            },
+            "price": 169900,
+            "currency": "PLN",
+            "dateFrom": "2020-03-09",
+            "dateTo": "2020-03-17",
+            "duration": 8,
+            "oldPrice": 338900,
+            "meal": "allInclusive",
+            "mealDetails": {
+                "id": "A",
+                "title": "All inclusive"
+            },
+            "promotion": [
+                "lastMinute"
+            ],
+            "canonicalDestinationTitle": "<a href=\"https://www.itaka.pl/last-minute/hiszpania/\">Hiszpania</a> / <a href=\"https://www.itaka.pl/last-minute/costa-del-sol/\">Costa del Sol</a> / Motril",
+            "photos": {
+                "main": "https://i.content4travel.com/cms/img/u/desktop/seres/AGPPLAY.jpg",
+                "panorama": "https://i.content4travel.com/cms/img/u/hotel/p/agpplay_0.jpg?version=191220-06",
+                "tiny": "https://i.content4travel.com/cms/img/u/hotel/m/agpplay_0.jpg?version=191220-06",
+                "gallery": [
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/agpplay_0.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/agpplay_1.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/agpplay_2.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/agpplay_3.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/agpplay_4.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/agpplay_5.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/agpplay_6.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/agpplay_7.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/agpplay_8.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/agpplay_9.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/agpplay_10.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/agpplay_11.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/agpplay_12.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/agpplay_13.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/agpplay_14.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/agpplay_15.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/agpplay_16.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/agpplay_17.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/agpplay_18.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/agpplay_19.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/agpplay_20.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/agpplay_21.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/agpplay_22.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/agpplay_23.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/agpplay_24.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/agpplay_25.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/agpplay_26.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/agpplay_27.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/agpplay_28.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/agpplay_29.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/agpplay_30.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/agpplay_31.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/agpplay_32.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/agpplay_33.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/agpplay_34.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/agpplay_35.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/agpplay_36.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/agpplay_37.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/agpplay_38.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/agpplay_39.jpg"
+                ],
+                "mobileGallery": []
+            },
+            "assets": [
+                "wakacje z rodziną",
+                "bogata oferta sportoworekreacyjna",
+                "bezpośrednio przy piaszczystej plaży",
+                "nowoczesne, eleganckie pokoje",
+                "Żagiel Itaki"
+            ],
+            "title": "Hotel Playa Granada Club Resort",
+            "ratings": {
+                "hotel": 45,
+                "overall": 55
+            },
+            "categoryTypes": [
+                {
+                    "id": "itaka-certificate",
+                    "title": "Żagiel Itaki"
+                },
+                {
+                    "id": "bet-on-activity",
+                    "title": "Postaw na aktywność"
+                },
+                {
+                    "id": "relax-with-family",
+                    "title": "Wypocznij z rodziną"
+                },
+                {
+                    "id": "make-some-follies",
+                    "title": "Oddaj się szaleństwu"
+                },
+                {
+                    "id": "romantic-holidays",
+                    "title": "Romantyczne wakacje"
+                },
+                {
+                    "id": "free-wifi",
+                    "title": "Wi-Fi gratis"
+                },
+                {
+                    "id": "beach-service-in-price",
+                    "title": "Serwis plażowy w cenie"
+                }
+            ],
+            "tripDifficultyLevels": [],
+            "url": "/wczasy/hiszpania/costa-del-sol/hotel-playa-granada-club-resort,AGPPLAY.html?ofr_id=f74ea958ce1c7960167275a41877e9ba64cd6059cd31e9dd8d91733d3747742c&adults=2&childs=0&currency=PLN",
+            "reviewsCount": 547,
+            "isConfirmed": false,
+            "ownTransport": false,
+            "departureRegion": "warszawa",
+            "transport": "flight",
+            "offerStatus": "OK",
+            "departure": {
+                "id": "WAWAGP1",
+                "from": {
+                    "code": "WAW",
+                    "city": "Warszawa",
+                    "airportName": "Okęcie",
+                    "date": "2020-03-09",
+                    "time": "08:10"
+                },
+                "to": {
+                    "code": "AGP",
+                    "city": "Malaga",
+                    "airportName": "Costa del Sol Airport",
+                    "date": "2020-03-09",
+                    "time": "12:10"
+                }
+            },
+            "return": {
+                "id": "AGPWAW1",
+                "from": {
+                    "code": "AGP",
+                    "city": "Malaga",
+                    "airportName": "Costa del Sol Airport",
+                    "date": "2020-03-17",
+                    "time": "03:25"
+                },
+                "to": {
+                    "code": "WAW",
+                    "city": "Warszawa",
+                    "airportName": "Okęcie",
+                    "date": "2020-03-17",
+                    "time": "07:05"
+                }
+            },
+            "beachDistance": 50,
+            "positiveReviewsPercentage": 99,
+            "tourCode": "",
+            "additionalHotel": {},
+            "isBestseller": false,
+            "reviewsRatings": {
+                "foodService": 5.1,
+                "highlights": 3.4,
+                "qualityByPrice": 4.9,
+                "animations": 4.2,
+                "beach": 4,
+                "hotel": 5.5,
+                "staff": 5.4,
+                "location": 4.8,
+                "room": 5.3,
+                "comfort": 4.7
+            },
+            "pricePerGroup": 339800,
+            "totalPrice": false
+        },
+        {
+            "packageCode": "FUETARO",
+            "uid": "fuetaro",
+            "packageType": "wczasy",
+            "offerId": {
+                "itaka": "cedcbb11d00f39050dc64263854c48aeb49d3e893b03be2b2c3f29867d4267e5"
+            },
+            "price": 169900,
+            "currency": "PLN",
+            "dateFrom": "2020-03-09",
+            "dateTo": "2020-03-16",
+            "duration": 8,
+            "oldPrice": 364900,
+            "meal": "allInclusive",
+            "mealDetails": {
+                "id": "A",
+                "title": "All inclusive"
+            },
+            "promotion": [
+                "lastMinute"
+            ],
+            "canonicalDestinationTitle": "<a href=\"https://www.itaka.pl/last-minute/wyspy-kanaryjskie/\">Wyspy Kanaryjskie</a> / <a href=\"https://www.itaka.pl/last-minute/fuerteventura/\">Fuerteventura</a> / Costa Calma",
+            "photos": {
+                "main": "https://i.content4travel.com/cms/img/u/desktop/seres/FUETARO.jpg",
+                "panorama": "https://i.content4travel.com/cms/img/u/hotel/p/fuetaro_0.jpg?version=191205-09",
+                "tiny": "https://i.content4travel.com/cms/img/u/hotel/m/fuetaro_0.jpg?version=191205-09",
+                "gallery": [
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuetaro_0.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuetaro_1.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuetaro_2.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuetaro_3.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuetaro_4.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuetaro_5.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuetaro_6.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuetaro_7.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuetaro_8.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuetaro_9.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuetaro_10.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuetaro_11.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuetaro_12.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuetaro_13.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuetaro_14.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuetaro_15.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuetaro_16.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuetaro_17.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuetaro_18.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuetaro_19.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuetaro_20.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuetaro_21.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuetaro_22.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuetaro_23.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuetaro_24.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuetaro_25.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuetaro_26.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuetaro_27.jpg"
+                ],
+                "mobileGallery": []
+            },
+            "assets": [
+                "aktywne wakacje z rodziną",
+                "przy plaży Sotavento",
+                "piękny widok na ocean",
+                "zajęcia sportowe",
+                "animacje dla dzieci i dorosłych"
+            ],
+            "title": "Hotel SBH Taro Beach",
+            "ratings": {
+                "hotel": 40,
+                "overall": 48
+            },
+            "categoryTypes": [
+                {
+                    "id": "bet-on-activity",
+                    "title": "Postaw na aktywność"
+                },
+                {
+                    "id": "relax-with-family",
+                    "title": "Wypocznij z rodziną"
+                }
+            ],
+            "tripDifficultyLevels": [],
+            "url": "/wczasy/wyspy-kanaryjskie/fuerteventura/hotel-sbh-taro-beach,FUETARO.html?ofr_id=cedcbb11d00f39050dc64263854c48aeb49d3e893b03be2b2c3f29867d4267e5&adults=2&childs=0&currency=PLN",
+            "reviewsCount": 1778,
+            "isConfirmed": false,
+            "ownTransport": false,
+            "departureRegion": "warszawa",
+            "transport": "flight",
+            "offerStatus": "OK",
+            "departure": {
+                "id": "WAWFUE1",
+                "from": {
+                    "code": "WAW",
+                    "city": "Warszawa",
+                    "airportName": "Okęcie",
+                    "date": "2020-03-09",
+                    "time": "09:45"
+                },
+                "to": {
+                    "code": "FUE",
+                    "city": "Fuerteventura",
+                    "airportName": "Puerto del Rosario",
+                    "date": "2020-03-09",
+                    "time": "14:25"
+                }
+            },
+            "return": {
+                "id": "FUEWAW1",
+                "from": {
+                    "code": "FUE",
+                    "city": "Fuerteventura",
+                    "airportName": "Puerto del Rosario",
+                    "date": "2020-03-16",
+                    "time": "15:15"
+                },
+                "to": {
+                    "code": "WAW",
+                    "city": "Warszawa",
+                    "airportName": "Okęcie",
+                    "date": "2020-03-16",
+                    "time": "21:35"
+                }
+            },
+            "beachDistance": 0,
+            "positiveReviewsPercentage": 92,
+            "tourCode": "",
+            "additionalHotel": {},
+            "isBestseller": true,
+            "reviewsRatings": {
+                "foodService": 5.2,
+                "highlights": 4.1,
+                "qualityByPrice": 4.7,
+                "animations": 3.9,
+                "beach": 5.6,
+                "hotel": 4.8,
+                "staff": 5.4,
+                "location": 5.6,
+                "room": 4.5,
+                "comfort": 4.8
+            },
+            "pricePerGroup": 339800,
+            "totalPrice": false
+        },
+        {
+            "packageCode": "ACELANZ",
+            "uid": "acelanz",
+            "packageType": "wczasy",
+            "offerId": {
+                "itaka": "261948a8744a9b19712a8a22c2ef82510f9179ac4a6b0c31dbe3ec0ed3835525"
+            },
+            "price": 173900,
+            "currency": "PLN",
+            "dateFrom": "2020-03-07",
+            "dateTo": "2020-03-14",
+            "duration": 8,
+            "oldPrice": 394900,
+            "meal": "allInclusive",
+            "mealDetails": {
+                "id": "A",
+                "title": "All inclusive"
+            },
+            "promotion": [
+                "lastMinute"
+            ],
+            "canonicalDestinationTitle": "<a href=\"https://www.itaka.pl/last-minute/wyspy-kanaryjskie/\">Wyspy Kanaryjskie</a> / <a href=\"https://www.itaka.pl/last-minute/lanzarote/\">Lanzarote</a> / Teguise",
+            "photos": {
+                "main": "https://i.content4travel.com/cms/img/u/desktop/seres/ACELANZ.jpg",
+                "panorama": "https://i.content4travel.com/cms/img/u/hotel/p/acelanz_0.jpg?version=200124-06",
+                "tiny": "https://i.content4travel.com/cms/img/u/hotel/m/acelanz_0.jpg?version=200124-06",
+                "gallery": [
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/acelanz_0.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/acelanz_1.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/acelanz_2.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/acelanz_3.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/acelanz_4.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/acelanz_5.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/acelanz_6.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/acelanz_7.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/acelanz_8.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/acelanz_9.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/acelanz_10.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/acelanz_11.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/acelanz_12.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/acelanz_13.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/acelanz_14.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/acelanz_15.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/acelanz_16.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/acelanz_17.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/acelanz_18.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/acelanz_19.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/acelanz_20.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/acelanz_21.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/acelanz_22.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/acelanz_23.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/acelanz_24.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/acelanz_25.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/acelanz_26.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/acelanz_27.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/acelanz_28.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/acelanz_29.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/acelanz_30.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/acelanz_31.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/acelanz_32.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/acelanz_33.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/acelanz_34.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/acelanz_35.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/acelanz_36.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/acelanz_37.jpg"
+                ],
+                "mobileGallery": []
+            },
+            "assets": [
+                "rodzinne wakacje",
+                "komfortowe, wyremontowane pokoje",
+                "bogaty program animacji dla dzieci i dorosłych",
+                "4 baseny, zjeżdżalnia",
+                "nowoczesne centrum wellness",
+                "basen olimpijski",
+                "udogodnienia dla niepełnosprawnych",
+                "sieć Occidental"
+            ],
+            "title": "Hotel Occidental Lanzarote Mar (Barceló Lanzarote Resort)",
+            "ratings": {
+                "hotel": 45,
+                "overall": 49
+            },
+            "categoryTypes": [
+                {
+                    "id": "make-some-follies",
+                    "title": "Oddaj się szaleństwu"
+                },
+                {
+                    "id": "bet-on-activity",
+                    "title": "Postaw na aktywność"
+                },
+                {
+                    "id": "spa",
+                    "title": "SPA"
+                },
+                {
+                    "id": "free-wifi",
+                    "title": "Wi-Fi gratis"
+                },
+                {
+                    "id": "relax-with-family",
+                    "title": "Wypocznij z rodziną"
+                }
+            ],
+            "tripDifficultyLevels": [],
+            "url": "/wczasy/wyspy-kanaryjskie/lanzarote/hotel-occidental-lanzarote-mar-barcelo-lanzarote-resort,ACELANZ.html?ofr_id=261948a8744a9b19712a8a22c2ef82510f9179ac4a6b0c31dbe3ec0ed3835525&adults=2&childs=0&currency=PLN",
+            "reviewsCount": 1035,
+            "isConfirmed": false,
+            "ownTransport": false,
+            "departureRegion": "warszawa",
+            "transport": "flight",
+            "offerStatus": "OK",
+            "departure": {
+                "id": "WAWACE1",
+                "from": {
+                    "code": "WAW",
+                    "city": "Warszawa",
+                    "airportName": "Okęcie",
+                    "date": "2020-03-07",
+                    "time": "08:30"
+                },
+                "to": {
+                    "code": "ACE",
+                    "city": "Lanzarote",
+                    "airportName": "Arrecife",
+                    "date": "2020-03-07",
+                    "time": "13:15"
+                }
+            },
+            "return": {
+                "id": "ACEWAW1",
+                "from": {
+                    "code": "ACE",
+                    "city": "Lanzarote",
+                    "airportName": "Arrecife",
+                    "date": "2020-03-14",
+                    "time": "14:15"
+                },
+                "to": {
+                    "code": "WAW",
+                    "city": "Warszawa",
+                    "airportName": "Okęcie",
+                    "date": "2020-03-14",
+                    "time": "20:40"
+                }
+            },
+            "beachDistance": 400,
+            "positiveReviewsPercentage": 93,
+            "tourCode": "",
+            "additionalHotel": {},
+            "isBestseller": false,
+            "reviewsRatings": {
+                "foodService": 5.1,
+                "highlights": 3.6,
+                "qualityByPrice": 4.6,
+                "animations": 4.7,
+                "beach": 3.5,
+                "hotel": 4.9,
+                "staff": 5.3,
+                "location": 4.3,
+                "room": 4.7,
+                "comfort": 4.5
+            },
+            "pricePerGroup": 347800,
+            "totalPrice": false
+        },
+        {
+            "packageCode": "FNCRORO",
+            "uid": "fncroro",
+            "packageType": "wczasy",
+            "offerId": {
+                "itaka": "592273932d0a8b1a4a5baa9b372e7824fe855e5dcaf583b728df64481af1c756"
+            },
+            "price": 179900,
+            "currency": "PLN",
+            "dateFrom": "2020-03-10",
+            "dateTo": "2020-03-17",
+            "duration": 8,
+            "oldPrice": 334900,
+            "meal": "halfBoard",
+            "mealDetails": {
+                "id": "H",
+                "title": "2 posiłki"
+            },
+            "promotion": [
+                "lastMinute"
+            ],
+            "canonicalDestinationTitle": "<a href=\"https://www.itaka.pl/last-minute/madera/\">Madera</a> / Canico",
+            "photos": {
+                "main": "https://i.content4travel.com/cms/img/u/desktop/seres/FNCRORO.jpg",
+                "panorama": "https://i.content4travel.com/cms/img/u/hotel/p/fncroro_0.jpg?version=191205-09",
+                "tiny": "https://i.content4travel.com/cms/img/u/hotel/m/fncroro_0.jpg?version=191205-09",
+                "gallery": [
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncroro_0.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncroro_1.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncroro_2.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncroro_3.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncroro_4.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncroro_5.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncroro_6.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncroro_7.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncroro_8.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncroro_9.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncroro_10.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncroro_11.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncroro_12.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncroro_13.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncroro_14.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncroro_15.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncroro_16.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncroro_17.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncroro_18.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncroro_19.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncroro_20.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncroro_21.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncroro_22.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncroro_23.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncroro_24.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncroro_25.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncroro_26.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncroro_27.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncroro_28.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncroro_29.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncroro_30.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncroro_31.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncroro_32.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncroro_33.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncroro_34.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncroro_35.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncroro_36.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncroro_37.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncroro_38.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncroro_39.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncroro_40.jpg"
+                ],
+                "mobileGallery": []
+            },
+            "assets": [
+                "wakacje we dwoje",
+                "malowniczo położony na klifie",
+                "spokojne wakacje blisko natury",
+                "zadbane pokoje",
+                "doskonała kuchnia"
+            ],
+            "title": "Hotel Rocamar & Royal Orchid",
+            "ratings": {
+                "hotel": 40,
+                "overall": 49
+            },
+            "categoryTypes": [
+                {
+                    "id": "itaka-certificate",
+                    "title": "Żagiel Itaki"
+                },
+                {
+                    "id": "bet-on-activity",
+                    "title": "Postaw na aktywność"
+                },
+                {
+                    "id": "romantic-holidays",
+                    "title": "Romantyczne wakacje"
+                },
+                {
+                    "id": "free-wifi",
+                    "title": "Wi-Fi gratis"
+                }
+            ],
+            "tripDifficultyLevels": [],
+            "url": "/wczasy/madera/hotel-rocamar-royal-orchid,FNCRORO.html?ofr_id=592273932d0a8b1a4a5baa9b372e7824fe855e5dcaf583b728df64481af1c756&adults=2&childs=0&currency=PLN",
+            "reviewsCount": 1408,
+            "isConfirmed": false,
+            "ownTransport": false,
+            "departureRegion": "warszawa",
+            "transport": "flight",
+            "offerStatus": "OK",
+            "departure": {
+                "id": "WAWFNC1",
+                "from": {
+                    "code": "WAW",
+                    "city": "Warszawa",
+                    "airportName": "Okęcie",
+                    "date": "2020-03-10",
+                    "time": "07:20"
+                },
+                "to": {
+                    "code": "FNC",
+                    "city": "Funchal",
+                    "airportName": "Funchal Airport",
+                    "date": "2020-03-10",
+                    "time": "11:40"
+                }
+            },
+            "return": {
+                "id": "FNCWAW1",
+                "from": {
+                    "code": "FNC",
+                    "city": "Funchal",
+                    "airportName": "Funchal Airport",
+                    "date": "2020-03-17",
+                    "time": "13:05"
+                },
+                "to": {
+                    "code": "WAW",
+                    "city": "Warszawa",
+                    "airportName": "Okęcie",
+                    "date": "2020-03-17",
+                    "time": "19:00"
+                }
+            },
+            "beachDistance": 800,
+            "positiveReviewsPercentage": 94,
+            "tourCode": "",
+            "additionalHotel": {},
+            "isBestseller": false,
+            "reviewsRatings": {
+                "foodService": 4.7,
+                "highlights": 3.8,
+                "qualityByPrice": 4.6,
+                "animations": 3.6,
+                "beach": 3.6,
+                "hotel": 4.9,
+                "staff": 5.2,
+                "location": 5.4,
+                "room": 4.8,
+                "comfort": 4.8
+            },
+            "pricePerGroup": 359800,
+            "totalPrice": false
+        },
+        {
+            "packageCode": "FUECCBR",
+            "uid": "fueccbr",
+            "packageType": "wczasy",
+            "offerId": {
+                "itaka": "2863133529e57277620a22932b20ebefb49d3e893b03be2b2c3f29867d4267e5"
+            },
+            "price": 179900,
+            "currency": "PLN",
+            "dateFrom": "2020-03-09",
+            "dateTo": "2020-03-16",
+            "duration": 8,
+            "oldPrice": 364900,
+            "meal": "allInclusive",
+            "mealDetails": {
+                "id": "A",
+                "title": "All inclusive"
+            },
+            "promotion": [
+                "lastMinute"
+            ],
+            "canonicalDestinationTitle": "<a href=\"https://www.itaka.pl/last-minute/wyspy-kanaryjskie/\">Wyspy Kanaryjskie</a> / <a href=\"https://www.itaka.pl/last-minute/fuerteventura/\">Fuerteventura</a> / Costa Calma",
+            "photos": {
+                "main": "https://i.content4travel.com/cms/img/u/desktop/seres/FUECCBR.jpg",
+                "panorama": "https://i.content4travel.com/cms/img/u/hotel/p/fueccbr_0.jpg?version=191205-09",
+                "tiny": "https://i.content4travel.com/cms/img/u/hotel/m/fueccbr_0.jpg?version=191205-09",
+                "gallery": [
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fueccbr_0.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fueccbr_1.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fueccbr_2.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fueccbr_3.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fueccbr_4.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fueccbr_5.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fueccbr_6.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fueccbr_7.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fueccbr_8.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fueccbr_9.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fueccbr_10.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fueccbr_11.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fueccbr_12.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fueccbr_13.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fueccbr_14.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fueccbr_15.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fueccbr_16.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fueccbr_17.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fueccbr_18.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fueccbr_19.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fueccbr_20.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fueccbr_21.jpg"
+                ],
+                "mobileGallery": []
+            },
+            "assets": [
+                "wypocznij z rodziną",
+                "przestronne apartamenty",
+                "plaża Sotavento",
+                "animacje dla dzieci",
+                "3 duże baseny",
+                "udogodnienia dla niepełnosprawnych"
+            ],
+            "title": "Hotel SBH Costa Calma Beach",
+            "ratings": {
+                "hotel": 40,
+                "overall": 49
+            },
+            "categoryTypes": [
+                {
+                    "id": "bet-on-activity",
+                    "title": "Postaw na aktywność"
+                },
+                {
+                    "id": "relax-with-family",
+                    "title": "Wypocznij z rodziną"
+                },
+                {
+                    "id": "beach-service-in-price",
+                    "title": "Serwis plażowy w cenie"
+                }
+            ],
+            "tripDifficultyLevels": [],
+            "url": "/wczasy/wyspy-kanaryjskie/fuerteventura/hotel-sbh-costa-calma-beach,FUECCBR.html?ofr_id=2863133529e57277620a22932b20ebefb49d3e893b03be2b2c3f29867d4267e5&adults=2&childs=0&currency=PLN",
+            "reviewsCount": 1901,
+            "isConfirmed": false,
+            "ownTransport": false,
+            "departureRegion": "warszawa",
+            "transport": "flight",
+            "offerStatus": "OK",
+            "departure": {
+                "id": "WAWFUE1",
+                "from": {
+                    "code": "WAW",
+                    "city": "Warszawa",
+                    "airportName": "Okęcie",
+                    "date": "2020-03-09",
+                    "time": "09:45"
+                },
+                "to": {
+                    "code": "FUE",
+                    "city": "Fuerteventura",
+                    "airportName": "Puerto del Rosario",
+                    "date": "2020-03-09",
+                    "time": "14:25"
+                }
+            },
+            "return": {
+                "id": "FUEWAW1",
+                "from": {
+                    "code": "FUE",
+                    "city": "Fuerteventura",
+                    "airportName": "Puerto del Rosario",
+                    "date": "2020-03-16",
+                    "time": "15:15"
+                },
+                "to": {
+                    "code": "WAW",
+                    "city": "Warszawa",
+                    "airportName": "Okęcie",
+                    "date": "2020-03-16",
+                    "time": "21:35"
+                }
+            },
+            "beachDistance": 0,
+            "positiveReviewsPercentage": 93,
+            "tourCode": "",
+            "additionalHotel": {},
+            "isBestseller": false,
+            "reviewsRatings": {
+                "foodService": 5.2,
+                "highlights": 4,
+                "qualityByPrice": 4.7,
+                "animations": 4.3,
+                "beach": 4.8,
+                "hotel": 5,
+                "staff": 5.3,
+                "location": 5.3,
+                "room": 4.5,
+                "comfort": 4.7
+            },
+            "pricePerGroup": 359800,
+            "totalPrice": false
+        },
+        {
+            "packageCode": "FUERIOC",
+            "uid": "fuerioc",
+            "packageType": "wczasy",
+            "offerId": {
+                "itaka": "e8cd17b5c6e947e0bb5c3ebfae3d397cb49d3e893b03be2b2c3f29867d4267e5"
+            },
+            "price": 179900,
+            "currency": "PLN",
+            "dateFrom": "2020-03-09",
+            "dateTo": "2020-03-16",
+            "duration": 8,
+            "oldPrice": 334900,
+            "meal": "halfBoard",
+            "mealDetails": {
+                "id": "H",
+                "title": "2 posiłki"
+            },
+            "promotion": [
+                "lastMinute"
+            ],
+            "canonicalDestinationTitle": "<a href=\"https://www.itaka.pl/last-minute/wyspy-kanaryjskie/\">Wyspy Kanaryjskie</a> / <a href=\"https://www.itaka.pl/last-minute/fuerteventura/\">Fuerteventura</a> / Costa Calma",
+            "photos": {
+                "main": "https://i.content4travel.com/cms/img/u/desktop/seres/FUERIOC.jpg",
+                "panorama": "https://i.content4travel.com/cms/img/u/hotel/p/fuerioc_0.jpg?version=191205-09",
+                "tiny": "https://i.content4travel.com/cms/img/u/hotel/m/fuerioc_0.jpg?version=191205-09",
+                "gallery": [
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuerioc_0.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuerioc_1.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuerioc_2.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuerioc_3.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuerioc_4.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuerioc_5.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuerioc_6.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuerioc_7.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuerioc_8.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuerioc_9.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuerioc_10.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuerioc_11.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuerioc_12.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuerioc_13.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuerioc_14.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuerioc_15.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuerioc_16.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuerioc_17.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuerioc_18.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuerioc_19.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuerioc_20.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuerioc_21.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuerioc_22.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuerioc_23.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuerioc_24.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuerioc_25.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuerioc_26.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuerioc_27.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuerioc_28.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuerioc_29.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuerioc_30.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuerioc_31.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuerioc_32.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuerioc_33.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuerioc_34.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuerioc_35.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuerioc_36.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuerioc_37.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuerioc_38.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuerioc_39.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuerioc_40.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuerioc_41.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuerioc_42.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuerioc_43.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuerioc_44.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuerioc_46.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuerioc_47.jpg"
+                ],
+                "mobileGallery": []
+            },
+            "assets": [
+                "elegancki",
+                "polecany dla par",
+                "w stylu kolonialnym",
+                "położony w pięknym ogrodzie",
+                "profesjonalne centrum spa z bogatą ofertą zabiegów",
+                "udogodnienia dla niepełnosprawnych"
+            ],
+            "title": "Hotel R2 Rio Calma",
+            "ratings": {
+                "hotel": 50,
+                "overall": 54
+            },
+            "categoryTypes": [
+                {
+                    "id": "itaka-certificate",
+                    "title": "Żagiel Itaki"
+                },
+                {
+                    "id": "dive-into-luxury",
+                    "title": "Zanurz się w luksusie"
+                },
+                {
+                    "id": "romantic-holidays",
+                    "title": "Romantyczne wakacje"
+                },
+                {
+                    "id": "free-wifi",
+                    "title": "Wi-Fi gratis"
+                }
+            ],
+            "tripDifficultyLevels": [],
+            "url": "/wczasy/wyspy-kanaryjskie/fuerteventura/hotel-r2-rio-calma,FUERIOC.html?ofr_id=e8cd17b5c6e947e0bb5c3ebfae3d397cb49d3e893b03be2b2c3f29867d4267e5&adults=2&childs=0&currency=PLN",
+            "reviewsCount": 1858,
+            "isConfirmed": false,
+            "ownTransport": false,
+            "departureRegion": "warszawa",
+            "transport": "flight",
+            "offerStatus": "OK",
+            "departure": {
+                "id": "WAWFUE1",
+                "from": {
+                    "code": "WAW",
+                    "city": "Warszawa",
+                    "airportName": "Okęcie",
+                    "date": "2020-03-09",
+                    "time": "09:45"
+                },
+                "to": {
+                    "code": "FUE",
+                    "city": "Fuerteventura",
+                    "airportName": "Puerto del Rosario",
+                    "date": "2020-03-09",
+                    "time": "14:25"
+                }
+            },
+            "return": {
+                "id": "FUEWAW1",
+                "from": {
+                    "code": "FUE",
+                    "city": "Fuerteventura",
+                    "airportName": "Puerto del Rosario",
+                    "date": "2020-03-16",
+                    "time": "15:15"
+                },
+                "to": {
+                    "code": "WAW",
+                    "city": "Warszawa",
+                    "airportName": "Okęcie",
+                    "date": "2020-03-16",
+                    "time": "21:35"
+                }
+            },
+            "beachDistance": 800,
+            "positiveReviewsPercentage": 98,
+            "tourCode": "",
+            "additionalHotel": {},
+            "isBestseller": false,
+            "reviewsRatings": {
+                "foodService": 5.2,
+                "highlights": 3.7,
+                "qualityByPrice": 4.9,
+                "animations": 4.2,
+                "beach": 3.9,
+                "hotel": 5.4,
+                "staff": 5.1,
+                "location": 4.8,
+                "room": 4.9,
+                "comfort": 4.7
+            },
+            "pricePerGroup": 359800,
+            "totalPrice": false
+        },
+        {
+            "packageCode": "TCPWEKA",
+            "uid": "tcpweka",
+            "packageType": "wczasy",
+            "offerId": {
+                "itaka": "ced79b62b22456478fbfcd7820574f8b8f6441ef2529a49b4b1419ea3597ba73"
+            },
+            "price": 179900,
+            "currency": "PLN",
+            "dateFrom": "2020-03-11",
+            "dateTo": "2020-03-18",
+            "duration": 8,
+            "oldPrice": 238900,
+            "meal": "allInclusive",
+            "mealDetails": {
+                "id": "A",
+                "title": "All inclusive"
+            },
+            "promotion": [
+                "lastMinute"
+            ],
+            "canonicalDestinationTitle": "<a href=\"https://www.itaka.pl/last-minute/egipt/\">Egipt</a> / <a href=\"https://www.itaka.pl/last-minute/taba/\">Taba</a>",
+            "photos": {
+                "main": "https://i.content4travel.com/cms/img/u/desktop/seres/TCPWEKA.jpg",
+                "panorama": "https://i.content4travel.com/cms/img/u/hotel/p/tcpweka_0.jpg?version=191205-08",
+                "tiny": "https://i.content4travel.com/cms/img/u/hotel/m/tcpweka_0.jpg?version=191205-08",
+                "gallery": [
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/tcpweka_0.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/tcpweka_2.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/tcpweka_3.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/tcpweka_4.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/tcpweka_5.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/tcpweka_6.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/tcpweka_7.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/tcpweka_8.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/tcpweka_9.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/tcpweka_10.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/tcpweka_11.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/tcpweka_12.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/tcpweka_13.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/tcpweka_14.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/tcpweka_15.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/tcpweka_16.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/tcpweka_17.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/tcpweka_18.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/tcpweka_19.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/tcpweka_20.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/tcpweka_21.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/tcpweka_22.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/tcpweka_23.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/tcpweka_24.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/tcpweka_25.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/tcpweka_26.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/tcpweka_27.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/tcpweka_28.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/tcpweka_29.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/tcpweka_30.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/tcpweka_31.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/tcpweka_32.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/tcpweka_33.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/tcpweka_34.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/tcpweka_35.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/tcpweka_36.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/tcpweka_37.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/tcpweka_38.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/tcpweka_39.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/tcpweka_40.jpg"
+                ],
+                "mobileGallery": []
+            },
+            "assets": [
+                "rodzinne wakacje",
+                "basen ze zjeżdżalniami",
+                "znakomita atmosfera",
+                "stylowe wnętrza"
+            ],
+            "title": "Hotel El Wekala Aqua Park Resort",
+            "ratings": {
+                "hotel": 40,
+                "overall": 49
+            },
+            "categoryTypes": [
+                {
+                    "id": "bet-on-activity",
+                    "title": "Postaw na aktywność"
+                },
+                {
+                    "id": "relax-with-family",
+                    "title": "Wypocznij z rodziną"
+                },
+                {
+                    "id": "free-wifi",
+                    "title": "Wi-Fi gratis"
+                },
+                {
+                    "id": "beach-service-in-price",
+                    "title": "Serwis plażowy w cenie"
+                }
+            ],
+            "tripDifficultyLevels": [],
+            "url": "/wczasy/egipt/taba/hotel-el-wekala-aqua-park-resort,TCPWEKA.html?ofr_id=ced79b62b22456478fbfcd7820574f8b8f6441ef2529a49b4b1419ea3597ba73&adults=2&childs=0&currency=PLN",
+            "reviewsCount": 248,
+            "isConfirmed": false,
+            "ownTransport": false,
+            "departureRegion": "katowice",
+            "transport": "flight",
+            "offerStatus": "OK",
+            "departure": {
+                "id": "KTWTCP1",
+                "from": {
+                    "code": "KTW",
+                    "city": "Katowice",
+                    "airportName": "Pyrzowice",
+                    "date": "2020-03-11",
+                    "time": "05:55"
+                },
+                "to": {
+                    "code": "TCP",
+                    "city": "Taba",
+                    "airportName": "Taba Intl Airport",
+                    "date": "2020-03-11",
+                    "time": "11:10"
+                }
+            },
+            "return": {
+                "id": "TCPKTW1",
+                "from": {
+                    "code": "TCP",
+                    "city": "Taba",
+                    "airportName": "Taba Intl Airport",
+                    "date": "2020-03-18",
+                    "time": "12:00"
+                },
+                "to": {
+                    "code": "KTW",
+                    "city": "Katowice",
+                    "airportName": "Pyrzowice",
+                    "date": "2020-03-18",
+                    "time": "15:30"
+                }
+            },
+            "beachDistance": 2000,
+            "positiveReviewsPercentage": 89,
+            "tourCode": "",
+            "additionalHotel": {},
+            "isBestseller": false,
+            "reviewsRatings": {
+                "foodService": 4.9,
+                "highlights": 3.9,
+                "qualityByPrice": 5.1,
+                "animations": 4.3,
+                "beach": 4.6,
+                "hotel": 4.9,
+                "staff": 5.3,
+                "location": 4.7,
+                "room": 4.7,
+                "comfort": 4.9
+            },
+            "pricePerGroup": 359800,
+            "totalPrice": false
+        },
+        {
+            "packageCode": "FNCESTR",
+            "uid": "fncestr",
+            "packageType": "wczasy",
+            "offerId": {
+                "itaka": "cd33f0e504ce04876c35f2a71b91b6d2fe855e5dcaf583b728df64481af1c756"
+            },
+            "price": 186900,
+            "currency": "PLN",
+            "dateFrom": "2020-03-10",
+            "dateTo": "2020-03-17",
+            "duration": 8,
+            "oldPrice": 304900,
+            "meal": "halfBoard",
+            "mealDetails": {
+                "id": "H",
+                "title": "2 posiłki"
+            },
+            "promotion": [
+                "lastMinute"
+            ],
+            "canonicalDestinationTitle": "<a href=\"https://www.itaka.pl/last-minute/madera/\">Madera</a> / Funchal",
+            "photos": {
+                "main": "https://i.content4travel.com/cms/img/u/desktop/seres/FNCESTR.jpg",
+                "panorama": "https://i.content4travel.com/cms/img/u/hotel/p/fncestr_0.jpg?version=191205-09",
+                "tiny": "https://i.content4travel.com/cms/img/u/hotel/m/fncestr_0.jpg?version=191205-09",
+                "gallery": [
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncestr_0.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncestr_1.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncestr_2.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncestr_3.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncestr_4.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncestr_5.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncestr_6.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncestr_7.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncestr_8.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncestr_9.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncestr_10.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncestr_11.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncestr_12.jpg"
+                ],
+                "mobileGallery": []
+            },
+            "assets": [
+                "rodzinny wypoczynek",
+                "baseny i plac zabaw",
+                "spokojna okolica"
+            ],
+            "title": "Hotel Dorisol Estrelicia",
+            "ratings": {
+                "hotel": 30,
+                "overall": 38
+            },
+            "categoryTypes": [
+                {
+                    "id": "relax-with-family",
+                    "title": "Wypocznij z rodziną"
+                },
+                {
+                    "id": "free-wifi",
+                    "title": "Wi-Fi gratis"
+                }
+            ],
+            "tripDifficultyLevels": [],
+            "url": "/wczasy/madera/hotel-dorisol-estrelicia,FNCESTR.html?ofr_id=cd33f0e504ce04876c35f2a71b91b6d2fe855e5dcaf583b728df64481af1c756&adults=2&childs=0&currency=PLN",
+            "reviewsCount": 35,
+            "isConfirmed": false,
+            "ownTransport": false,
+            "departureRegion": "warszawa",
+            "transport": "flight",
+            "offerStatus": "OK",
+            "departure": {
+                "id": "WAWFNC1",
+                "from": {
+                    "code": "WAW",
+                    "city": "Warszawa",
+                    "airportName": "Okęcie",
+                    "date": "2020-03-10",
+                    "time": "07:20"
+                },
+                "to": {
+                    "code": "FNC",
+                    "city": "Funchal",
+                    "airportName": "Funchal Airport",
+                    "date": "2020-03-10",
+                    "time": "11:40"
+                }
+            },
+            "return": {
+                "id": "FNCWAW1",
+                "from": {
+                    "code": "FNC",
+                    "city": "Funchal",
+                    "airportName": "Funchal Airport",
+                    "date": "2020-03-17",
+                    "time": "13:05"
+                },
+                "to": {
+                    "code": "WAW",
+                    "city": "Warszawa",
+                    "airportName": "Okęcie",
+                    "date": "2020-03-17",
+                    "time": "19:00"
+                }
+            },
+            "beachDistance": 600,
+            "positiveReviewsPercentage": 60,
+            "tourCode": "",
+            "additionalHotel": {},
+            "isBestseller": false,
+            "reviewsRatings": {
+                "foodService": 3.7,
+                "highlights": 4,
+                "qualityByPrice": 4.2,
+                "animations": 3.6,
+                "beach": 3.1,
+                "hotel": 3.8,
+                "staff": 4.7,
+                "location": 4.9,
+                "room": 3.9,
+                "comfort": 4.8
+            },
+            "pricePerGroup": 373800,
+            "totalPrice": false
+        },
+        {
+            "packageCode": "FNCTERR",
+            "uid": "fncterr",
+            "packageType": "wczasy",
+            "offerId": {
+                "itaka": "1bc2a7bad47e0bc227072bcbd0354a79fe855e5dcaf583b728df64481af1c756"
+            },
+            "price": 186900,
+            "currency": "PLN",
+            "dateFrom": "2020-03-10",
+            "dateTo": "2020-03-17",
+            "duration": 8,
+            "oldPrice": 314900,
+            "meal": "breakfast",
+            "mealDetails": {
+                "id": "F",
+                "title": "Śniadania"
+            },
+            "promotion": [
+                "lastMinute"
+            ],
+            "canonicalDestinationTitle": "<a href=\"https://www.itaka.pl/last-minute/madera/\">Madera</a> / Funchal",
+            "photos": {
+                "main": "https://i.content4travel.com/cms/img/u/desktop/seres/FNCTERR.jpg",
+                "panorama": "https://i.content4travel.com/cms/img/u/hotel/p/fncterr_0.jpg?version=92",
+                "tiny": "https://i.content4travel.com/cms/img/u/hotel/m/fncterr_0.jpg?version=92",
+                "gallery": [
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncterr_0.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncterr_1.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncterr_2.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncterr_3.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncterr_4.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncterr_5.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncterr_6.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncterr_7.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncterr_8.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncterr_9.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncterr_10.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncterr_11.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fncterr_12.jpg"
+                ],
+                "mobileGallery": []
+            },
+            "assets": [
+                "romantyczny wypoczynek",
+                "blisko centrum Funchal",
+                "basen na dachu z widokiem na ocean i miasto",
+                "pokoje z aneksami kuchennymi",
+                "kameralna atmosfera"
+            ],
+            "title": "Hotel Terrace Mar Suite",
+            "ratings": {
+                "hotel": 40,
+                "overall": 51
+            },
+            "categoryTypes": [
+                {
+                    "id": "make-some-follies",
+                    "title": "Oddaj się szaleństwu"
+                },
+                {
+                    "id": "romantic-holidays",
+                    "title": "Romantyczne wakacje"
+                },
+                {
+                    "id": "free-wifi",
+                    "title": "Wi-Fi gratis"
+                }
+            ],
+            "tripDifficultyLevels": [],
+            "url": "/wczasy/madera/hotel-terrace-mar-suite,FNCTERR.html?ofr_id=1bc2a7bad47e0bc227072bcbd0354a79fe855e5dcaf583b728df64481af1c756&adults=2&childs=0&currency=PLN",
+            "reviewsCount": 116,
+            "isConfirmed": false,
+            "ownTransport": false,
+            "departureRegion": "warszawa",
+            "transport": "flight",
+            "offerStatus": "OK",
+            "departure": {
+                "id": "WAWFNC1",
+                "from": {
+                    "code": "WAW",
+                    "city": "Warszawa",
+                    "airportName": "Okęcie",
+                    "date": "2020-03-10",
+                    "time": "07:20"
+                },
+                "to": {
+                    "code": "FNC",
+                    "city": "Funchal",
+                    "airportName": "Funchal Airport",
+                    "date": "2020-03-10",
+                    "time": "11:40"
+                }
+            },
+            "return": {
+                "id": "FNCWAW1",
+                "from": {
+                    "code": "FNC",
+                    "city": "Funchal",
+                    "airportName": "Funchal Airport",
+                    "date": "2020-03-17",
+                    "time": "13:05"
+                },
+                "to": {
+                    "code": "WAW",
+                    "city": "Warszawa",
+                    "airportName": "Okęcie",
+                    "date": "2020-03-17",
+                    "time": "19:00"
+                }
+            },
+            "beachDistance": 500,
+            "positiveReviewsPercentage": 97,
+            "tourCode": "",
+            "additionalHotel": {},
+            "isBestseller": false,
+            "reviewsRatings": {
+                "foodService": 4.7,
+                "highlights": 4.7,
+                "qualityByPrice": 5,
+                "animations": 2.6,
+                "beach": 2.9,
+                "hotel": 5.1,
+                "staff": 5.4,
+                "location": 4.8,
+                "room": 5.3,
+                "comfort": 4.9
+            },
+            "pricePerGroup": 373800,
+            "totalPrice": false
+        },
+        {
+            "packageCode": "FUEBJAM",
+            "uid": "fuebjam",
+            "packageType": "wczasy",
+            "offerId": {
+                "itaka": "d2d8152d5bfe5ed2323cb6a2bbedf212b49d3e893b03be2b2c3f29867d4267e5"
+            },
+            "price": 189900,
+            "currency": "PLN",
+            "dateFrom": "2020-03-09",
+            "dateTo": "2020-03-16",
+            "duration": 8,
+            "oldPrice": 374900,
+            "meal": "allInclusive",
+            "mealDetails": {
+                "id": "A",
+                "title": "All inclusive"
+            },
+            "promotion": [
+                "lastMinute"
+            ],
+            "canonicalDestinationTitle": "<a href=\"https://www.itaka.pl/last-minute/wyspy-kanaryjskie/\">Wyspy Kanaryjskie</a> / <a href=\"https://www.itaka.pl/last-minute/fuerteventura/\">Fuerteventura</a> / Morro del Jable",
+            "photos": {
+                "main": "https://i.content4travel.com/cms/img/u/desktop/seres/FUEBJAM.jpg",
+                "panorama": "https://i.content4travel.com/cms/img/u/hotel/p/fuebjam_0.jpg?version=191205-09",
+                "tiny": "https://i.content4travel.com/cms/img/u/hotel/m/fuebjam_0.jpg?version=191205-09",
+                "gallery": [
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjam_0.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjam_1.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjam_2.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjam_3.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjam_4.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjam_5.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjam_6.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjam_7.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjam_8.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjam_9.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjam_10.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjam_11.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjam_12.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjam_13.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjam_14.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjam_15.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjam_16.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjam_17.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjam_18.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjam_19.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjam_20.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjam_21.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjam_22.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjam_23.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjam_24.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjam_25.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjam_26.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjam_27.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjam_28.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjam_29.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjam_30.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjam_31.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjam_32.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjam_33.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjam_34.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjam_35.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjam_36.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjam_37.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjam_38.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjam_39.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjam_40.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjam_41.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjam_42.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjam_43.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjam_44.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjam_45.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjam_46.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjam_47.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjam_48.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjam_49.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjam_50.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjam_51.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjam_52.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjam_53.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjam_54.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjam_55.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjam_56.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjam_57.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjam_58.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjam_59.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjam_60.jpg"
+                ],
+                "mobileGallery": []
+            },
+            "assets": [
+                "rodzinny wypoczynek",
+                "duże pokoje rodzinne",
+                "ogród z basenami",
+                "bogaty program animacji",
+                "miniklub, plac zabaw",
+                "sieć Barceló",
+                "udogodnienia dla niepełnosprawnych"
+            ],
+            "title": "Hotel Occidental Jandia Mar (Barceló Jandia Mar)",
+            "ratings": {
+                "hotel": 40,
+                "overall": 50
+            },
+            "categoryTypes": [
+                {
+                    "id": "relax-with-family",
+                    "title": "Wypocznij z rodziną"
+                },
+                {
+                    "id": "make-some-follies",
+                    "title": "Oddaj się szaleństwu"
+                },
+                {
+                    "id": "free-wifi",
+                    "title": "Wi-Fi gratis"
+                }
+            ],
+            "tripDifficultyLevels": [],
+            "url": "/wczasy/wyspy-kanaryjskie/fuerteventura/hotel-occidental-jandia-mar-barcelo-jandia-mar,FUEBJAM.html?ofr_id=d2d8152d5bfe5ed2323cb6a2bbedf212b49d3e893b03be2b2c3f29867d4267e5&adults=2&childs=0&currency=PLN",
+            "reviewsCount": 1071,
+            "isConfirmed": false,
+            "ownTransport": false,
+            "departureRegion": "warszawa",
+            "transport": "flight",
+            "offerStatus": "OK",
+            "departure": {
+                "id": "WAWFUE1",
+                "from": {
+                    "code": "WAW",
+                    "city": "Warszawa",
+                    "airportName": "Okęcie",
+                    "date": "2020-03-09",
+                    "time": "09:45"
+                },
+                "to": {
+                    "code": "FUE",
+                    "city": "Fuerteventura",
+                    "airportName": "Puerto del Rosario",
+                    "date": "2020-03-09",
+                    "time": "14:25"
+                }
+            },
+            "return": {
+                "id": "FUEWAW1",
+                "from": {
+                    "code": "FUE",
+                    "city": "Fuerteventura",
+                    "airportName": "Puerto del Rosario",
+                    "date": "2020-03-16",
+                    "time": "15:15"
+                },
+                "to": {
+                    "code": "WAW",
+                    "city": "Warszawa",
+                    "airportName": "Okęcie",
+                    "date": "2020-03-16",
+                    "time": "21:35"
+                }
+            },
+            "beachDistance": 800,
+            "positiveReviewsPercentage": 95,
+            "tourCode": "",
+            "additionalHotel": {},
+            "isBestseller": false,
+            "reviewsRatings": {
+                "foodService": 4.8,
+                "highlights": 4.1,
+                "qualityByPrice": 4.6,
+                "animations": 4.5,
+                "beach": 5.4,
+                "hotel": 5,
+                "staff": 5.1,
+                "location": 4.5,
+                "room": 4.9,
+                "comfort": 4.6
+            },
+            "pricePerGroup": 379800,
+            "totalPrice": false
+        },
+        {
+            "packageCode": "FUEBJAN",
+            "uid": "fuebjan",
+            "packageType": "wczasy",
+            "offerId": {
+                "itaka": "602ca8a499313dd2d6fef4f333ea03bdb49d3e893b03be2b2c3f29867d4267e5"
+            },
+            "price": 189900,
+            "currency": "PLN",
+            "dateFrom": "2020-03-09",
+            "dateTo": "2020-03-16",
+            "duration": 8,
+            "oldPrice": 374900,
+            "meal": "allInclusive",
+            "mealDetails": {
+                "id": "A",
+                "title": "All inclusive"
+            },
+            "promotion": [
+                "lastMinute"
+            ],
+            "canonicalDestinationTitle": "<a href=\"https://www.itaka.pl/last-minute/wyspy-kanaryjskie/\">Wyspy Kanaryjskie</a> / <a href=\"https://www.itaka.pl/last-minute/fuerteventura/\">Fuerteventura</a> / Playa De Jandia",
+            "photos": {
+                "main": "https://i.content4travel.com/cms/img/u/desktop/seres/FUEBJAN.jpg",
+                "panorama": "https://i.content4travel.com/cms/img/u/hotel/p/fuebjan_0.jpg?version=200128-12",
+                "tiny": "https://i.content4travel.com/cms/img/u/hotel/m/fuebjan_0.jpg?version=200128-12",
+                "gallery": [
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjan_0.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjan_1.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjan_2.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjan_3.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjan_4.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjan_5.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjan_6.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjan_7.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjan_8.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjan_9.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjan_10.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjan_11.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjan_12.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjan_13.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjan_14.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjan_15.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjan_16.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjan_17.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjan_18.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjan_19.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjan_20.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjan_21.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjan_22.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjan_23.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjan_24.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjan_25.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjan_26.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjan_27.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjan_28.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjan_29.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjan_30.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjan_31.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjan_32.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjan_33.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjan_34.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjan_35.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjan_36.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjan_37.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjan_38.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjan_39.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjan_40.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjan_41.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjan_42.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjan_43.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjan_44.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjan_45.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjan_46.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjan_47.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjan_48.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjan_49.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjan_50.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjan_51.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjan_52.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjan_53.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjan_54.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjan_55.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjan_56.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjan_57.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjan_58.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjan_59.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjan_60.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuebjan_61.jpg"
+                ],
+                "mobileGallery": []
+            },
+            "assets": [
+                "wspaniała zabawa dla całej rodziny",
+                "pokoje rodzinne",
+                "zajęcia sportowe i animacje",
+                "2 baseny, brodzik",
+                "przy pięknej plaży Jandia",
+                "sieć Barceló"
+            ],
+            "title": "Hotel Occidental Jandia Playa (Barceló Jandia Playa)",
+            "ratings": {
+                "hotel": 40,
+                "overall": 50
+            },
+            "categoryTypes": [
+                {
+                    "id": "relax-with-family",
+                    "title": "Wypocznij z rodziną"
+                },
+                {
+                    "id": "make-some-follies",
+                    "title": "Oddaj się szaleństwu"
+                },
+                {
+                    "id": "free-wifi",
+                    "title": "Wi-Fi gratis"
+                }
+            ],
+            "tripDifficultyLevels": [],
+            "url": "/wczasy/wyspy-kanaryjskie/fuerteventura/hotel-occidental-jandia-playa-barcelo-jandia-playa,FUEBJAN.html?ofr_id=602ca8a499313dd2d6fef4f333ea03bdb49d3e893b03be2b2c3f29867d4267e5&adults=2&childs=0&currency=PLN",
+            "reviewsCount": 1093,
+            "isConfirmed": false,
+            "ownTransport": false,
+            "departureRegion": "warszawa",
+            "transport": "flight",
+            "offerStatus": "OK",
+            "departure": {
+                "id": "WAWFUE1",
+                "from": {
+                    "code": "WAW",
+                    "city": "Warszawa",
+                    "airportName": "Okęcie",
+                    "date": "2020-03-09",
+                    "time": "09:45"
+                },
+                "to": {
+                    "code": "FUE",
+                    "city": "Fuerteventura",
+                    "airportName": "Puerto del Rosario",
+                    "date": "2020-03-09",
+                    "time": "14:25"
+                }
+            },
+            "return": {
+                "id": "FUEWAW1",
+                "from": {
+                    "code": "FUE",
+                    "city": "Fuerteventura",
+                    "airportName": "Puerto del Rosario",
+                    "date": "2020-03-16",
+                    "time": "15:15"
+                },
+                "to": {
+                    "code": "WAW",
+                    "city": "Warszawa",
+                    "airportName": "Okęcie",
+                    "date": "2020-03-16",
+                    "time": "21:35"
+                }
+            },
+            "beachDistance": 600,
+            "positiveReviewsPercentage": 95,
+            "tourCode": "",
+            "additionalHotel": {},
+            "isBestseller": true,
+            "reviewsRatings": {
+                "foodService": 5,
+                "highlights": 4.2,
+                "qualityByPrice": 4.7,
+                "animations": 4.3,
+                "beach": 5.5,
+                "hotel": 5,
+                "staff": 5.2,
+                "location": 5.1,
+                "room": 4.8,
+                "comfort": 4.4
+            },
+            "pricePerGroup": 379800,
+            "totalPrice": false
+        },
+        {
+            "packageCode": "FUEMONI",
+            "uid": "fuemoni",
+            "packageType": "wczasy",
+            "offerId": {
+                "itaka": "d273a7ed3f328a97466dc7f6c0a2e2b0b49d3e893b03be2b2c3f29867d4267e5"
+            },
+            "price": 189900,
+            "currency": "PLN",
+            "dateFrom": "2020-03-09",
+            "dateTo": "2020-03-16",
+            "duration": 8,
+            "oldPrice": 374900,
+            "meal": "allInclusive",
+            "mealDetails": {
+                "id": "A",
+                "title": "All inclusive"
+            },
+            "promotion": [
+                "lastMinute"
+            ],
+            "canonicalDestinationTitle": "<a href=\"https://www.itaka.pl/last-minute/wyspy-kanaryjskie/\">Wyspy Kanaryjskie</a> / <a href=\"https://www.itaka.pl/last-minute/fuerteventura/\">Fuerteventura</a> / Costa Calma",
+            "photos": {
+                "main": "https://i.content4travel.com/cms/img/u/desktop/seres/FUEMONI.jpg",
+                "panorama": "https://i.content4travel.com/cms/img/u/hotel/p/fuemoni_0.jpg?version=200128-12",
+                "tiny": "https://i.content4travel.com/cms/img/u/hotel/m/fuemoni_0.jpg?version=200128-12",
+                "gallery": [
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuemoni_0.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuemoni_1.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuemoni_2.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuemoni_3.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuemoni_4.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuemoni_5.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuemoni_6.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuemoni_7.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuemoni_8.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuemoni_9.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuemoni_10.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuemoni_11.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuemoni_12.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuemoni_13.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuemoni_14.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuemoni_15.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuemoni_16.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuemoni_17.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuemoni_18.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuemoni_19.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuemoni_20.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuemoni_21.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuemoni_22.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuemoni_23.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuemoni_24.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuemoni_25.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuemoni_26.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuemoni_27.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuemoni_28.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuemoni_29.jpg"
+                ],
+                "mobileGallery": []
+            },
+            "assets": [
+                "dla rodzin z dziećmi",
+                "apartamenty dla 4 osób",
+                "przy pięknej plaży z jasnym piaskiem",
+                "animacje, miniklub",
+                "3 baseny, 1 brodzik",
+                "udogodnienia dla niepełnosprawnych",
+                "Żagiel Itaki"
+            ],
+            "title": "Hotel SBH Monica Beach",
+            "ratings": {
+                "hotel": 40,
+                "overall": 50
+            },
+            "categoryTypes": [
+                {
+                    "id": "bet-on-activity",
+                    "title": "Postaw na aktywność"
+                },
+                {
+                    "id": "relax-with-family",
+                    "title": "Wypocznij z rodziną"
+                }
+            ],
+            "tripDifficultyLevels": [],
+            "url": "/wczasy/wyspy-kanaryjskie/fuerteventura/hotel-sbh-monica-beach,FUEMONI.html?ofr_id=d273a7ed3f328a97466dc7f6c0a2e2b0b49d3e893b03be2b2c3f29867d4267e5&adults=2&childs=0&currency=PLN",
+            "reviewsCount": 1553,
+            "isConfirmed": false,
+            "ownTransport": false,
+            "departureRegion": "warszawa",
+            "transport": "flight",
+            "offerStatus": "OK",
+            "departure": {
+                "id": "WAWFUE1",
+                "from": {
+                    "code": "WAW",
+                    "city": "Warszawa",
+                    "airportName": "Okęcie",
+                    "date": "2020-03-09",
+                    "time": "09:45"
+                },
+                "to": {
+                    "code": "FUE",
+                    "city": "Fuerteventura",
+                    "airportName": "Puerto del Rosario",
+                    "date": "2020-03-09",
+                    "time": "14:25"
+                }
+            },
+            "return": {
+                "id": "FUEWAW1",
+                "from": {
+                    "code": "FUE",
+                    "city": "Fuerteventura",
+                    "airportName": "Puerto del Rosario",
+                    "date": "2020-03-16",
+                    "time": "15:15"
+                },
+                "to": {
+                    "code": "WAW",
+                    "city": "Warszawa",
+                    "airportName": "Okęcie",
+                    "date": "2020-03-16",
+                    "time": "21:35"
+                }
+            },
+            "beachDistance": null,
+            "positiveReviewsPercentage": 93,
+            "tourCode": "",
+            "additionalHotel": {},
+            "isBestseller": true,
+            "reviewsRatings": {
+                "foodService": 5.1,
+                "highlights": 4.2,
+                "qualityByPrice": 4.7,
+                "animations": 4.3,
+                "beach": 5.6,
+                "hotel": 5,
+                "staff": 5.3,
+                "location": 5.6,
+                "room": 4.7,
+                "comfort": 4.8
+            },
+            "pricePerGroup": 379800,
+            "totalPrice": false
+        },
+        {
+            "packageCode": "FUEPARA",
+            "uid": "fuepara",
+            "packageType": "wczasy",
+            "offerId": {
+                "itaka": "2a36cbbd54467d22fc3de268d511102411a865121316fd6e2ba8eb36bcb04f8a"
+            },
+            "price": 189900,
+            "currency": "PLN",
+            "dateFrom": "2020-03-16",
+            "dateTo": "2020-03-23",
+            "duration": 8,
+            "oldPrice": 354900,
+            "meal": "allInclusive",
+            "mealDetails": {
+                "id": "A",
+                "title": "All inclusive"
+            },
+            "promotion": [
+                "lastMinute"
+            ],
+            "canonicalDestinationTitle": "<a href=\"https://www.itaka.pl/last-minute/wyspy-kanaryjskie/\">Wyspy Kanaryjskie</a> / <a href=\"https://www.itaka.pl/last-minute/fuerteventura/\">Fuerteventura</a> / Esquinzo",
+            "photos": {
+                "main": "https://i.content4travel.com/cms/img/u/desktop/seres/FUEPARA.jpg",
+                "panorama": "https://i.content4travel.com/cms/img/u/hotel/p/fuepara_0.jpg?version=191205-09",
+                "tiny": "https://i.content4travel.com/cms/img/u/hotel/m/fuepara_0.jpg?version=191205-09",
+                "gallery": [
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuepara_0.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuepara_1.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuepara_2.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuepara_3.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuepara_4.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuepara_5.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuepara_6.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuepara_7.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuepara_8.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuepara_9.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuepara_10.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuepara_11.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuepara_12.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fuepara_13.jpg"
+                ],
+                "mobileGallery": []
+            },
+            "assets": [
+                "aktywny wypoczynek",
+                "przy pięknej plaży",
+                "wspaniałe baseny z widokiem na ocean",
+                "urozmaicone animacje",
+                "kort tenisowy"
+            ],
+            "title": "Hotel SBH Club Paraiso Playa",
+            "ratings": {
+                "hotel": 40,
+                "overall": 48
+            },
+            "categoryTypes": [
+                {
+                    "id": "bet-on-activity",
+                    "title": "Postaw na aktywność"
+                },
+                {
+                    "id": "relax-with-family",
+                    "title": "Wypocznij z rodziną"
+                }
+            ],
+            "tripDifficultyLevels": [],
+            "url": "/wczasy/wyspy-kanaryjskie/fuerteventura/hotel-sbh-club-paraiso-playa,FUEPARA.html?ofr_id=2a36cbbd54467d22fc3de268d511102411a865121316fd6e2ba8eb36bcb04f8a&adults=2&childs=0&currency=PLN",
+            "reviewsCount": 1375,
+            "isConfirmed": false,
+            "ownTransport": false,
+            "departureRegion": "warszawa",
+            "transport": "flight",
+            "offerStatus": "OK",
+            "departure": {
+                "id": "WAWFUE1",
+                "from": {
+                    "code": "WAW",
+                    "city": "Warszawa",
+                    "airportName": "Okęcie",
+                    "date": "2020-03-16",
+                    "time": "09:45"
+                },
+                "to": {
+                    "code": "FUE",
+                    "city": "Fuerteventura",
+                    "airportName": "Puerto del Rosario",
+                    "date": "2020-03-16",
+                    "time": "14:25"
+                }
+            },
+            "return": {
+                "id": "FUEWAW1",
+                "from": {
+                    "code": "FUE",
+                    "city": "Fuerteventura",
+                    "airportName": "Puerto del Rosario",
+                    "date": "2020-03-23",
+                    "time": "08:50"
+                },
+                "to": {
+                    "code": "WAW",
+                    "city": "Warszawa",
+                    "airportName": "Okęcie",
+                    "date": "2020-03-23",
+                    "time": "15:10"
+                }
+            },
+            "beachDistance": 0,
+            "positiveReviewsPercentage": 92,
+            "tourCode": "",
+            "additionalHotel": {},
+            "isBestseller": true,
+            "reviewsRatings": {
+                "foodService": 5.2,
+                "highlights": 3.3,
+                "qualityByPrice": 4.7,
+                "animations": 4.5,
+                "beach": 5.6,
+                "hotel": 4.8,
+                "staff": 5.5,
+                "location": 5.3,
+                "room": 4.4,
+                "comfort": 4.7
+            },
+            "pricePerGroup": 379800,
+            "totalPrice": false
+        },
+        {
+            "packageCode": "HRGHILO",
+            "uid": "hrghilo",
+            "packageType": "wczasy",
+            "offerId": {
+                "itaka": "4912bb3fd3b91ee1aa1119bd06b9809012d6b3c75d2371314ddfb22bf22d153c"
+            },
+            "price": 189900,
+            "currency": "PLN",
+            "dateFrom": "2020-03-12",
+            "dateTo": "2020-03-19",
+            "duration": 8,
+            "oldPrice": 258900,
+            "meal": "allInclusive",
+            "mealDetails": {
+                "id": "A",
+                "title": "All inclusive"
+            },
+            "promotion": [
+                "lastMinute"
+            ],
+            "canonicalDestinationTitle": "<a href=\"https://www.itaka.pl/last-minute/egipt/\">Egipt</a> / <a href=\"https://www.itaka.pl/last-minute/hurghada/\">Hurghada</a>",
+            "photos": {
+                "main": "https://i.content4travel.com/cms/img/u/desktop/seres/HRGHILO.jpg",
+                "panorama": "https://i.content4travel.com/cms/img/u/hotel/p/hrghilo_0.jpg?version=200303-11",
+                "tiny": "https://i.content4travel.com/cms/img/u/hotel/m/hrghilo_0.jpg?version=200303-11",
+                "gallery": [
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/hrghilo_0.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/hrghilo_1.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/hrghilo_2.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/hrghilo_3.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/hrghilo_4.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/hrghilo_5.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/hrghilo_6.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/hrghilo_7.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/hrghilo_8.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/hrghilo_9.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/hrghilo_10.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/hrghilo_11.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/hrghilo_12.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/hrghilo_13.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/hrghilo_14.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/hrghilo_15.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/hrghilo_16.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/hrghilo_17.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/hrghilo_18.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/hrghilo_19.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/hrghilo_20.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/hrghilo_21.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/hrghilo_22.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/hrghilo_23.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/hrghilo_24.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/hrghilo_25.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/hrghilo_26.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/hrghilo_27.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/hrghilo_28.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/hrghilo_29.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/hrghilo_30.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/hrghilo_31.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/hrghilo_32.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/hrghilo_33.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/hrghilo_34.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/hrghilo_35.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/hrghilo_36.jpg"
+                ],
+                "mobileGallery": []
+            },
+            "assets": [
+                "wypoczynek z rodziną",
+                "luksusowy i stylowy",
+                "leniwa rzeka",
+                "położony przy plaży",
+                "blisko rafy koralowej"
+            ],
+            "title": "Hotel Long Beach Resort",
+            "ratings": {
+                "hotel": 40,
+                "overall": 47
+            },
+            "categoryTypes": [
+                {
+                    "id": "relax-with-family",
+                    "title": "Wypocznij z rodziną"
+                },
+                {
+                    "id": "beach-service-in-price",
+                    "title": "Serwis plażowy w cenie"
+                }
+            ],
+            "tripDifficultyLevels": [],
+            "url": "/wczasy/egipt/hurghada/hotel-long-beach-resort,HRGHILO.html?ofr_id=4912bb3fd3b91ee1aa1119bd06b9809012d6b3c75d2371314ddfb22bf22d153c&adults=2&childs=0&currency=PLN",
+            "reviewsCount": 176,
+            "isConfirmed": false,
+            "ownTransport": false,
+            "departureRegion": "katowice",
+            "transport": "flight",
+            "offerStatus": "OK",
+            "departure": {
+                "id": "KTWHRG1",
+                "from": {
+                    "code": "KTW",
+                    "city": "Katowice",
+                    "airportName": "Pyrzowice",
+                    "date": "2020-03-12",
+                    "time": "07:10"
+                },
+                "to": {
+                    "code": "HRG",
+                    "city": "Hurghada",
+                    "airportName": "Hurghada Intl Airport",
+                    "date": "2020-03-12",
+                    "time": "12:15"
+                }
+            },
+            "return": {
+                "id": "HRGKTW1",
+                "from": {
+                    "code": "HRG",
+                    "city": "Hurghada",
+                    "airportName": "Hurghada Intl Airport",
+                    "date": "2020-03-19",
+                    "time": "23:55"
+                },
+                "to": {
+                    "code": "KTW",
+                    "city": "Katowice",
+                    "airportName": "Pyrzowice",
+                    "date": "2020-03-20",
+                    "time": "03:10"
+                }
+            },
+            "beachDistance": 0,
+            "positiveReviewsPercentage": 88,
+            "tourCode": "",
+            "additionalHotel": {},
+            "isBestseller": false,
+            "reviewsRatings": {
+                "foodService": 4.2,
+                "highlights": 3.7,
+                "qualityByPrice": 4.6,
+                "animations": 3.9,
+                "beach": 4.9,
+                "hotel": 4.7,
+                "staff": 5,
+                "location": 4.9,
+                "room": 4.5,
+                "comfort": 4.9
+            },
+            "pricePerGroup": 379800,
+            "totalPrice": false
+        },
+        {
+            "packageCode": "HRGMARL",
+            "uid": "hrgmarl",
+            "packageType": "wczasy",
+            "offerId": {
+                "itaka": "2b24917ae479e4d26589019427a4795512d6b3c75d2371314ddfb22bf22d153c"
+            },
+            "price": 189900,
+            "currency": "PLN",
+            "dateFrom": "2020-03-12",
+            "dateTo": "2020-03-19",
+            "duration": 8,
+            "oldPrice": 318900,
+            "meal": "allInclusive",
+            "mealDetails": {
+                "id": "A",
+                "title": "All inclusive"
+            },
+            "promotion": [
+                "lastMinute"
+            ],
+            "canonicalDestinationTitle": "<a href=\"https://www.itaka.pl/last-minute/egipt/\">Egipt</a> / <a href=\"https://www.itaka.pl/last-minute/hurghada/\">Hurghada</a>",
+            "photos": {
+                "main": "https://i.content4travel.com/cms/img/u/desktop/seres/HRGMARL.jpg",
+                "panorama": "https://i.content4travel.com/cms/img/u/null",
+                "tiny": "https://i.content4travel.com/cms/img/u/null",
+                "gallery": [
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/hrgmarl_0.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/hrgmarl_1.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/hrgmarl_2.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/hrgmarl_3.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/hrgmarl_4.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/hrgmarl_5.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/hrgmarl_6.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/hrgmarl_7.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/hrgmarl_8.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/hrgmarl_9.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/hrgmarl_10.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/hrgmarl_11.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/hrgmarl_12.jpg"
+                ],
+                "mobileGallery": []
+            },
+            "assets": [
+                "bezpośrednio przy plaży",
+                "z ładnymi widokami",
+                "2 baseny",
+                "animacje dla dorosłych i dzieci",
+                "przyjazna i uśmiechnięta obsługa"
+            ],
+            "title": "Hotel Marlin Inn Azur Resort",
+            "ratings": {
+                "hotel": 40,
+                "overall": 45
+            },
+            "categoryTypes": [
+                {
+                    "id": "free-wifi",
+                    "title": "Wi-Fi gratis"
+                },
+                {
+                    "id": "beach-service-in-price",
+                    "title": "Serwis plażowy w cenie"
+                }
+            ],
+            "tripDifficultyLevels": [],
+            "url": "/wczasy/egipt/hurghada/hotel-marlin-inn-azur-resort,HRGMARL.html?ofr_id=2b24917ae479e4d26589019427a4795512d6b3c75d2371314ddfb22bf22d153c&adults=2&childs=0&currency=PLN",
+            "reviewsCount": 30,
+            "isConfirmed": false,
+            "ownTransport": false,
+            "departureRegion": "katowice",
+            "transport": "flight",
+            "offerStatus": "OK",
+            "departure": {
+                "id": "KTWHRG1",
+                "from": {
+                    "code": "KTW",
+                    "city": "Katowice",
+                    "airportName": "Pyrzowice",
+                    "date": "2020-03-12",
+                    "time": "07:10"
+                },
+                "to": {
+                    "code": "HRG",
+                    "city": "Hurghada",
+                    "airportName": "Hurghada Intl Airport",
+                    "date": "2020-03-12",
+                    "time": "12:15"
+                }
+            },
+            "return": {
+                "id": "HRGKTW1",
+                "from": {
+                    "code": "HRG",
+                    "city": "Hurghada",
+                    "airportName": "Hurghada Intl Airport",
+                    "date": "2020-03-19",
+                    "time": "23:55"
+                },
+                "to": {
+                    "code": "KTW",
+                    "city": "Katowice",
+                    "airportName": "Pyrzowice",
+                    "date": "2020-03-20",
+                    "time": "03:10"
+                }
+            },
+            "beachDistance": 0,
+            "positiveReviewsPercentage": 90,
+            "tourCode": "",
+            "additionalHotel": {},
+            "isBestseller": false,
+            "reviewsRatings": {
+                "foodService": 4.6,
+                "highlights": 4.6,
+                "qualityByPrice": 5,
+                "animations": 4.9,
+                "beach": 5.3,
+                "hotel": 4.5,
+                "staff": 5,
+                "location": 5.5,
+                "room": 4,
+                "comfort": 4.8
+            },
+            "pricePerGroup": 379800,
+            "totalPrice": false
+        }
+    ],
+    "count": 228,
+    "sortedBy": "priceAsc",
+    "breadcrumb": [
+        {
+            "id": "root-url",
+            "label": null,
+            "url": "https://www.itaka.pl/"
+        },
+        {
+            "id": "last-minute",
+            "label": {
+                "normalText": "Last Minute - wakacje",
+                "seoText": "Last Minute - wakacje"
+            },
+            "url": null
+        }
+    ],
+    "url": "https://www.itaka.pl/last-minute/?view=offerList&package-type=wczasy&adults=2&date-from=2020-03-05&promo=lastMinute&order=priceAsc&total-price=0&page=2&transport=bus%2Cflight&currency=PLN",
+    "pageTitle": "Last Minute - oferty 2020: tanie wakacje, wczasy, wycieczki | ITAKA",
+    "description": "Last Minute – ostatnie miejsca, które czekają na Ciebie! Tanie wakacje - wczasy i wycieczki do najpopularniejszych miejsc na świecie. Szukasz wyjątkowych promocji? Wakacji w niskiej cenie? Sprawdź nasze <b>oferty Last Minute!</b> Wyspy Kanaryjskie, Grecja, Turcja, Bułgaria, Egipt, Hiszpania, Włochy i wiele innych, niezwykłych miejsc, doskonałych na wczasy lub wycieczkę. A wśród nich także oferty <a href=\"/all-inclusive/\">All Inclusive</a>!",
+    "landingPageText": {
+        "title": "Last Minute",
+        "subTitle": "Znajdź najlepsze okazje cenowe  z wylotem nawet na dziś! "
+    },
+    "searchResultsTitle": "Last Minute"
+}

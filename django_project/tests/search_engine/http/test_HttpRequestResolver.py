@@ -1,7 +1,6 @@
-from search_engine.http.resolver import HttpRequestResolver, ParameterError
+from django_project.search_engine.http.resolver import HttpRequestResolver, ParameterError, ResponseCodeError
 import unittest
-from unittest.mock import Mock, PropertyMock
-from unittest.mock import patch
+from unittest.mock import Mock
 
 class TestHttpRequestResolver(unittest.TestCase):
 

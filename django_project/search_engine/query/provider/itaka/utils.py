@@ -2,7 +2,7 @@ import datetime
 from bs4 import BeautifulSoup
 from requests.exceptions import Timeout, ConnectionError
 
-from django_project.search_engine import http
+from django_project.search_engine.http import resolver
 
 def get_http_request_info():
     today = datetime.datetime.today().strftime('%Y-%m-%d')
@@ -39,28 +39,43 @@ def get_http_request_info():
                 'total-price': '0',
                 'transport': 'bus,flight',
                 'userId': '5a07c37020f6f23385975533eaa36c9a',
-                'page': '1',
                 'filters': 'text,packageType,departureRegion,destinationRegion,dateFrom,dateTo,duration,adultsNumber,childrenAge,price,categoryTypes,promotions,food,standard,facilities,grade,transport,tripActivities,tripDifficultyLevels,beachDistance',
                 'currency': 'PLN',
                 }
             }
     }
 
-
-class MandatoryFieldError(AttributeError):
-    def __init__(self, msg):
-        self.msg = msg
-
-
 def extract_fields(orginal_json, category, provider_name):
     """Take only things that we need"""
     offers_container = orginal_json['data']
-    http.logger.debug(f"Found {len(offers_container)} record")
+    resolver.logger.debug(f"Found {len(offers_container)} record")
 
     result = []
     for item in offers_container:
+        """Country and City is not in any field directly but we can take it
+           from the url taken from canonicalDestinationTitle field"""
+        soup = BeautifulSoup(item.get('canonicalDestinationTitle', ""), features="html.parser")
+        location_info = list(soup.strings)
+
+        try:
+            country_name = location_info[0]
+        except IndexError:
+            resolver.logger.warning("Missing country name! Trying another item.")
+            continue
+
+        city_name_list = []
+        for i in range(1, len(location_info)):
+            if len(location_info[i]) < 4 and '/' in location_info[i]:
+                continue
+            city_name_list.append(location_info[i].strip(' /'))
+
+        if not city_name_list:
+            resolver.logger.warning("Missing city name! Trying another item.")
+            continue
+
         offer = {
-            'id': item['offerId'],
+            'country': country_name,
+            'city': ', '.join(name for name in city_name_list),
             'category': category,
             'provider': provider_name,
             'price': item['price'],
@@ -73,70 +88,54 @@ def extract_fields(orginal_json, category, provider_name):
             'reviews_cnt': item['reviewsCount'],
             'transport': item['transport'],
             'departureFromCity': item['departure']['from']['city'],
-            'departureFromAirPort': item['departure']['from']['airportName'],
         }
 
         hotel_rating = item['ratings']['hotel']
         if hotel_rating:
-            offer['stars'] = hotel_rating/10
+            offer['hotel_rating'] = hotel_rating
 
         overall_rating = item['ratings']['overall']
         if overall_rating:
-            offer['overall'] = overall_rating/10
+            offer['overall_rating'] = overall_rating
 
-        """Country and City is not in any field directly but we can take it from some urls"""
-        soup = BeautifulSoup(item.get('canonicalDestinationTitle', ""), features="html.parser")
-
-        country_tag = soup.find('a')
-        if not country_tag:
-            raise MandatoryFieldError("Missing country name!")
-
-        city_tag = country_tag.find_next()
-        if not city_tag:
-            raise MandatoryFieldError("Missing country name!")
-
-        offer['country'] = country_tag.contents
-        offer['city'] = city_tag.contents
         result.append(offer)
 
     return result
 
 
 def get_offers_from_all_pages(url, headers, params, category, provider_name):
-    resolver = http.RequestResolver(url=url, headers=headers)
+    http_resolver = resolver.HttpRequestResolver(url=url, headers=headers)
     num = 1
-    result = []
+    result = {
+        "offers": []
+    }
     while True:
-        http.logger.debug(f"Parsing page: {num}")
+        resolver.logger.debug(f"Parsing page: {num}")
         params['page'] = num
-        resolver.set_params(params)
+        http_resolver.set_params(params)
         try:
-            resolver.resolve()
-        except http.ParameterError as e:
-            http.logger.exception(e.msg)
+            http_resolver.resolve()
+        except resolver.ParameterError as e:
+            resolver.logger.exception(e.msg)
             return None
         except Timeout:
-            http.logger.exception("Timeout when connecting to {provider_name}!")
+            resolver.logger.exception("Timeout when connecting to {provider_name}!")
             return None
         except ConnectionError:
-            http.logger.exception("Couldn't connect to {provider_name}!")
+            resolver.logger.exception("Couldn't connect to {provider_name}!")
             return None
-        except http.ResponseCodeError as e:
-            http.logger.exception(e.msg)
+        except resolver.ResponseCodeError as e:
+            resolver.logger.exception(e.msg)
             continue
 
-        offers_json = resolver.get_json()
-        try:
-            parsed_offers = extract_fields(offers_json, category, provider_name)
-        except MandatoryFieldError as e:
-            http.logger.error(e.msg)
-            continue
+        offers_json = resolver.http_resolver()
+        parsed_offers = extract_fields(offers_json, category, provider_name)
 
         if not parsed_offers:
-            http.logger.info(f"No records for page: {num}. Stopping {provider_name} provider.")
+            resolver.logger.info(f"No records for page: {num}. Stopping {provider_name} provider.")
             break
         else:
-            result.append(parsed_offers)
+            result['offers'].extend(parsed_offers)
             num += 1
 
     return result

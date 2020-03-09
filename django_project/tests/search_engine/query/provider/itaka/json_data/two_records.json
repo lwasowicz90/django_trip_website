@@ -1,0 +1,287 @@
+{
+    "data": [
+        {
+            "packageCode": "FNCCAMP",
+            "uid": "fnccamp",
+            "packageType": "wczasy",
+            "offerId": {
+                "itaka": "9b71286ada9eac3d531ba29c9bcad661fe855e5dcaf583b728df64481af1c756"
+            },
+            "price": 158900,
+            "currency": "PLN",
+            "dateFrom": "2020-03-10",
+            "dateTo": "2020-03-17",
+            "duration": 8,
+            "oldPrice": 284900,
+            "meal": "halfBoard",
+            "mealDetails": {
+                "id": "H",
+                "title": "2 posiłki"
+            },
+            "promotion": [
+                "lastMinute"
+            ],
+            "canonicalDestinationTitle": "<a href=\"https://www.itaka.pl/last-minute/madera/\">Madera</a> / Ribeira Brava",
+            "photos": {
+                "main": "https://i.content4travel.com/cms/img/u/desktop/seres/FNCCAMP.jpg",
+                "panorama": "https://i.content4travel.com/cms/img/u/null",
+                "tiny": "https://i.content4travel.com/cms/img/u/null",
+                "gallery": [
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fnccamp_0.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fnccamp_1.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fnccamp_2.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fnccamp_3.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fnccamp_4.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fnccamp_5.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fnccamp_6.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fnccamp_7.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fnccamp_8.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fnccamp_9.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fnccamp_10.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fnccamp_11.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fnccamp_12.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fnccamp_13.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fnccamp_14.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fnccamp_15.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fnccamp_16.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fnccamp_17.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fnccamp_18.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fnccamp_19.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fnccamp_20.jpg"
+                ],
+                "mobileGallery": []
+            },
+            "assets": [
+                "w spokojnej okolicy",
+                "piękne widoki",
+                "przestronne i wygodne pokoje",
+                "doskonała kuchnia",
+                "basen i centrum wellness",
+                "baza wypadowa do zwiedzania wyspy"
+            ],
+            "title": "Hotel Do Campo",
+            "ratings": {
+                "hotel": 40,
+                "overall": 54
+            },
+            "categoryTypes": [
+                {
+                    "id": "romantic-holidays",
+                    "title": "Romantyczne wakacje"
+                },
+                {
+                    "id": "free-wifi",
+                    "title": "Wi-Fi gratis"
+                }
+            ],
+            "tripDifficultyLevels": [],
+            "url": "/wczasy/madera/hotel-do-campo,FNCCAMP.html?ofr_id=9b71286ada9eac3d531ba29c9bcad661fe855e5dcaf583b728df64481af1c756&adults=2&childs=0&currency=PLN",
+            "reviewsCount": 40,
+            "isConfirmed": false,
+            "ownTransport": false,
+            "departureRegion": "warszawa",
+            "transport": "flight",
+            "offerStatus": "OK",
+            "departure": {
+                "id": "WAWFNC1",
+                "from": {
+                    "code": "WAW",
+                    "city": "Warszawa",
+                    "airportName": "Okęcie",
+                    "date": "2020-03-10",
+                    "time": "07:20"
+                },
+                "to": {
+                    "code": "FNC",
+                    "city": "Funchal",
+                    "airportName": "Funchal Airport",
+                    "date": "2020-03-10",
+                    "time": "11:40"
+                }
+            },
+            "return": {
+                "id": "FNCWAW1",
+                "from": {
+                    "code": "FNC",
+                    "city": "Funchal",
+                    "airportName": "Funchal Airport",
+                    "date": "2020-03-17",
+                    "time": "13:05"
+                },
+                "to": {
+                    "code": "WAW",
+                    "city": "Warszawa",
+                    "airportName": "Okęcie",
+                    "date": "2020-03-17",
+                    "time": "19:00"
+                }
+            },
+            "beachDistance": null,
+            "positiveReviewsPercentage": 100,
+            "tourCode": "",
+            "additionalHotel": {},
+            "isBestseller": false,
+            "reviewsRatings": {
+                "foodService": 5.1,
+                "highlights": 3.7,
+                "qualityByPrice": 5.1,
+                "animations": 2.9,
+                "beach": 3.1,
+                "hotel": 5.4,
+                "staff": 5.6,
+                "location": 5,
+                "room": 5.6,
+                "comfort": 4.8
+            },
+            "pricePerGroup": 317800,
+            "totalPrice": false
+        },
+        {
+            "packageCode": "FNCCRUZ",
+            "uid": "fnccruz",
+            "packageType": "wczasy",
+            "offerId": {
+                "itaka": "ded418e2d3c4d2d1f5b20fa46f587d9afe855e5dcaf583b728df64481af1c756"
+            },
+            "price": 158900,
+            "currency": "PLN",
+            "dateFrom": "2020-03-10",
+            "dateTo": "2020-03-17",
+            "duration": 8,
+            "oldPrice": 334900,
+            "meal": "halfBoard",
+            "mealDetails": {
+                "id": "H",
+                "title": "2 posiłki"
+            },
+            "promotion": [
+                "lastMinute"
+            ],
+            "canonicalDestinationTitle": "<a href=\"https://www.itaka.pl/last-minute/madera/\">Madera</a> / Santa Cruz",
+            "photos": {
+                "main": "https://i.content4travel.com/cms/img/u/desktop/seres/FNCCRUZ.jpg",
+                "panorama": "https://i.content4travel.com/cms/img/u/hotel/p/fnccruz_0.jpg?version=92",
+                "tiny": "https://i.content4travel.com/cms/img/u/hotel/m/fnccruz_0.jpg?version=92",
+                "gallery": [
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fnccruz_0.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fnccruz_1.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fnccruz_2.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fnccruz_3.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fnccruz_4.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fnccruz_5.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fnccruz_6.jpg",
+                    "https://i.content4travel.com/cms/img/u/desktop/seres/fnccruz_7.jpg"
+                ],
+                "mobileGallery": []
+            },
+            "assets": [
+                "polecany na par",
+                "całkowicie odnowiony",
+                "nowoczesne pokoje",
+                "położony w centrum Santa Cruz",
+                "udogodnienia dla niepełnosprawnych"
+            ],
+            "title": "Hotel Santa Cruz Village",
+            "ratings": {
+                "hotel": 40,
+                "overall": 52
+            },
+            "categoryTypes": [
+                {
+                    "id": "romantic-holidays",
+                    "title": "Romantyczne wakacje"
+                },
+                {
+                    "id": "free-wifi",
+                    "title": "Wi-Fi gratis"
+                }
+            ],
+            "tripDifficultyLevels": [],
+            "url": "/wczasy/madera/hotel-santa-cruz-village,FNCCRUZ.html?ofr_id=ded418e2d3c4d2d1f5b20fa46f587d9afe855e5dcaf583b728df64481af1c756&adults=2&childs=0&currency=PLN",
+            "reviewsCount": 57,
+            "isConfirmed": false,
+            "ownTransport": false,
+            "departureRegion": "warszawa",
+            "transport": "flight",
+            "offerStatus": "OK",
+            "departure": {
+                "id": "WAWFNC1",
+                "from": {
+                    "code": "WAW",
+                    "city": "Warszawa",
+                    "airportName": "Okęcie",
+                    "date": "2020-03-10",
+                    "time": "07:20"
+                },
+                "to": {
+                    "code": "FNC",
+                    "city": "Funchal",
+                    "airportName": "Funchal Airport",
+                    "date": "2020-03-10",
+                    "time": "11:40"
+                }
+            },
+            "return": {
+                "id": "FNCWAW1",
+                "from": {
+                    "code": "FNC",
+                    "city": "Funchal",
+                    "airportName": "Funchal Airport",
+                    "date": "2020-03-17",
+                    "time": "13:05"
+                },
+                "to": {
+                    "code": "WAW",
+                    "city": "Warszawa",
+                    "airportName": "Okęcie",
+                    "date": "2020-03-17",
+                    "time": "19:00"
+                }
+            },
+            "beachDistance": 300,
+            "positiveReviewsPercentage": 93,
+            "tourCode": "",
+            "additionalHotel": {},
+            "isBestseller": false,
+            "reviewsRatings": {
+                "foodService": 4.4,
+                "highlights": 4.3,
+                "qualityByPrice": 4.8,
+                "animations": 2.9,
+                "beach": 4.1,
+                "hotel": 5.2,
+                "staff": 5.6,
+                "location": 4.9,
+                "room": 5.1,
+                "comfort": 5.1
+            },
+            "pricePerGroup": 317800,
+            "totalPrice": false
+        }
+    ],
+    "count": 228,
+    "sortedBy": "priceAsc",
+    "breadcrumb": [
+        {
+            "id": "root-url",
+            "label": null,
+            "url": "https://www.itaka.pl/"
+        },
+        {
+            "id": "last-minute",
+            "label": {
+                "normalText": "Last Minute - wakacje",
+                "seoText": "Last Minute - wakacje"
+            },
+            "url": null
+        }
+    ],
+    "url": "https://www.itaka.pl/last-minute/?view=offerList&package-type=wczasy&adults=2&date-from=2020-03-05&promo=lastMinute&order=priceAsc&total-price=0&page=2&transport=bus%2Cflight&currency=PLN",
+    "pageTitle": "Last Minute - oferty 2020: tanie wakacje, wczasy, wycieczki | ITAKA",
+    "description": "Last Minute – ostatnie miejsca, które czekają na Ciebie! Tanie wakacje - wczasy i wycieczki do najpopularniejszych miejsc na świecie. Szukasz wyjątkowych promocji? Wakacji w niskiej cenie? Sprawdź nasze <b>oferty Last Minute!</b> Wyspy Kanaryjskie, Grecja, Turcja, Bułgaria, Egipt, Hiszpania, Włochy i wiele innych, niezwykłych miejsc, doskonałych na wczasy lub wycieczkę. A wśród nich także oferty <a href=\"/all-inclusive/\">All Inclusive</a>!",
+    "landingPageText": {
+        "title": "Last Minute",
+        "subTitle": "Znajdź najlepsze okazje cenowe  z wylotem nawet na dziś! "
+    },
+    "searchResultsTitle": "Last Minute"
+}
