@@ -65,6 +65,7 @@ def extract_fields(orginal_json, provider_name):
 
         offer = {
             'provider': provider_name,
+            'canonicalDestinationTitle': item['canonicalDestinationTitle'],
             'country': country_name,
             'city': ', '.join(name for name in city_name_list),
             'meal': item['meal'],
