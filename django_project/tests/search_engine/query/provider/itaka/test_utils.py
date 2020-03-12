@@ -75,17 +75,16 @@ class TestUtils_extract_fields(unittest.TestCase):
 
     def get_expected_offers_list(self, expected_json_filepath):
         with open(expected_json_filepath) as f:
-            return json.load(f)['data']
+            return json.load(f)['offers']
 
     def test_parse_two_records_succeeded(self):
         dir_path = pathlib.Path(__file__).parent.absolute()
         path = os.path.join(dir_path, "json_data/two_records_expected.json")
         expected_offers = self.get_expected_offers_list(path)
-        dummy_category = expected_offers[0]['category']
         dummy_provider = expected_offers[0]['provider']
         with open(os.path.join(dir_path, "json_data/two_records.json")) as f:
             loaded_json = json.load(f)
-            result_list = self.uut(loaded_json, dummy_category, dummy_provider)
+            result_list = self.uut(loaded_json, dummy_provider)
             self.assertEqual(result_list, expected_offers)
 
     def test_whole_page_succeeded(self):
@@ -95,7 +94,7 @@ class TestUtils_extract_fields(unittest.TestCase):
 
         with open(path) as f:
             loaded_json = json.load(f)
-            result_list = self.uut(loaded_json, 'dummy_category', 'dummy_provider')
+            result_list = self.uut(loaded_json, 'dummy_provider')
             expected_offers_number = len(loaded_json['data'])
             self.assertEqual(expected_offers_number, 25)
             self.assertEqual(expected_offers_number, len(result_list))
@@ -104,6 +103,7 @@ class TestUtils_extract_fields(unittest.TestCase):
             for i in range(expected_offers_number):
                 self.assertTrue(result_list[i]['country'])
                 self.assertTrue(result_list[i]['city'])
+                self.assertEqual(input_data[i]['meal'], result_list[i]['meal'])
                 self.assertEqual(input_data[i]['price'], result_list[i]['price'])
                 self.assertEqual(input_data[i]['dateFrom'], result_list[i]['dateFrom'])
                 self.assertEqual(input_data[i]['dateTo'], result_list[i]['dateTo'])

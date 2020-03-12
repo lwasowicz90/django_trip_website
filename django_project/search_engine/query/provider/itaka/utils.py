@@ -45,10 +45,10 @@ def get_http_request_info():
             }
     }
 
-def extract_fields(orginal_json, category, provider_name):
+def extract_fields(orginal_json, provider_name):
     """Take only things that we need"""
     offers_container = orginal_json['data']
-    resolver.logger.debug(f"Found {len(offers_container)} record")
+    resolver.logger.debug(f"Found {len(offers_container)} records")
 
     result = []
     for item in offers_container:
@@ -65,6 +65,7 @@ def extract_fields(orginal_json, category, provider_name):
 
         city_name_list = []
         for i in range(1, len(location_info)):
+            """Ignore not relevant strings like ' / ' etc. """
             if len(location_info[i]) < 4 and '/' in location_info[i]:
                 continue
             city_name_list.append(location_info[i].strip(' /'))
@@ -74,10 +75,10 @@ def extract_fields(orginal_json, category, provider_name):
             continue
 
         offer = {
+            'provider': provider_name,
             'country': country_name,
             'city': ', '.join(name for name in city_name_list),
-            'category': category,
-            'provider': provider_name,
+            'meal': item['meal'],
             'price': item['price'],
             'dateFrom': item['dateFrom'],
             'dateTo': item['dateTo'],
@@ -103,7 +104,7 @@ def extract_fields(orginal_json, category, provider_name):
     return result
 
 
-def get_offers_from_all_pages(url, headers, params, category, provider_name):
+def get_offers_from_all_pages(url, headers, params, provider_name):
     http_resolver = resolver.HttpRequestResolver(url=url, headers=headers)
     num = 1
     result = {
@@ -129,7 +130,7 @@ def get_offers_from_all_pages(url, headers, params, category, provider_name):
             continue
 
         offers_json = resolver.http_resolver()
-        parsed_offers = extract_fields(offers_json, category, provider_name)
+        parsed_offers = extract_fields(offers_json, provider_name)
 
         if not parsed_offers:
             resolver.logger.info(f"No records for page: {num}. Stopping {provider_name} provider.")

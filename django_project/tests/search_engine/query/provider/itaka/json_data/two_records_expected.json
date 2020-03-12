@@ -1,10 +1,10 @@
 {
-  "data": [
+  "offers": [
     {
+      "provider": "some_provider",
       "country": "Madera",
       "city": "Ribeira Brava",
-      "category": "some_category",
-      "provider": "some_provider",
+      "meal": "halfBoard",
       "price": 158900,
       "dateFrom": "2020-03-10",
       "dateTo": "2020-03-17",
@@ -19,10 +19,10 @@
       "overall_rating": 54
     },
     {
+      "provider": "some_provider",
       "country": "Madera",
       "city": "Santa Cruz",
-      "category": "some_category",
-      "provider": "some_provider",
+      "meal": "halfBoard",
       "price": 158900,
       "dateFrom": "2020-03-10",
       "dateTo": "2020-03-17",
