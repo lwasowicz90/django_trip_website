@@ -61,7 +61,7 @@ def extract_fields(orginal_json, provider_name):
             city_name_list.append(location_info[i].strip(' /'))
 
         if not city_name_list:
-            resolver.logger.warning("Missing city name! Trying another item.")
+            resolver.logger.warning("Missing city name!")
 
         offer = {
             'provider': provider_name,
@@ -97,31 +97,30 @@ def extract_fields(orginal_json, provider_name):
 def get_offers_from_all_pages(url, headers, params, provider_name):
     http_resolver = resolver.HttpRequestResolver(url=url, headers=headers)
     num = 1
+    current_tries = 0
     result = {
         "offers": []
     }
     while True:
-        resolver.logger.debug(f"Parsing page: {num}")
+        resolver.logger.debug(f"Parsing page: {num} of {provider_name} provider.")
         params['page'] = num
         http_resolver.set_params(params)
         try:
-            http_resolver.resolve()
+            offers_json = http_resolver.resolve()
         except resolver.ParameterError as e:
             resolver.logger.exception(e.msg)
-            return None
+            return result
         except Timeout:
-            resolver.logger.exception("Timeout when connecting to {provider_name}!")
-            return None
+            resolver.logger.exception("Timeout when connecting to {provider_name} provider!")
+            return result
         except ConnectionError:
-            resolver.logger.exception("Couldn't connect to {provider_name}!")
-            return None
+            resolver.logger.exception("Couldn't connect to {provider_name} provider!")
+            return result
         except resolver.ResponseCodeError as e:
             resolver.logger.exception(e.msg)
-            continue
+            return result
 
-        offers_json = resolver.http_resolver()
         parsed_offers = extract_fields(offers_json, provider_name)
-
         if not parsed_offers:
             resolver.logger.info(f"No records for page: {num}. Stopping {provider_name} provider.")
             break
@@ -129,4 +128,5 @@ def get_offers_from_all_pages(url, headers, params, provider_name):
             result['offers'].extend(parsed_offers)
             num += 1
 
+    resolver.logger.info(f"Found {len(result['offers'])} offers for {provider_name} provider.")
     return result

@@ -1,4 +1,6 @@
 from django_project.search_engine.query.provider.itaka import utils
+from django_project.search_engine.http.resolver import ParameterError, ResponseCodeError
+from requests import Timeout, ConnectionError
 import unittest
 from unittest.mock import Mock, MagicMock
 from unittest.mock import patch
@@ -112,6 +114,79 @@ class TestUtils_extract_fields(unittest.TestCase):
                     self.assertEqual(input_data[i]['ratings']['hotel'], result_list[i]['hotel_rating'])
                 if input_data[i]['ratings']['overall']:
                     self.assertEqual(input_data[i]['ratings']['overall'], result_list[i]['overall_rating'])
+
+
+class TestUtils_get_offers_from_all_pages(unittest.TestCase):
+    def setUp(self):
+        self.uut = utils.get_offers_from_all_pages
+        self.dummy_url = "https://some/url"
+        self.dummy_params = {"some": 1}
+        self.dummy_header = "headers"
+        self.dummy_provide_name = "sexy"
+        self.dummy_offer_result = [1, 2, 3]
+        self.empty_offers_dict = {"offers": []}
+
+    @patch('django_project.search_engine.http.resolver.HttpRequestResolver')
+    def run_uut_and_expectation_for_resolve_when_exception_happens(self, exception, http_resolver_mock):
+        actual_resolver_mock = Mock(**{'resolve.side_effect': exception("some_msg")})
+        http_resolver_mock.return_value = actual_resolver_mock
+
+        offers_result = self.uut(self.dummy_url, self.dummy_header, self.dummy_params, self.dummy_provide_name)
+        http_resolver_mock.assert_called_once_with(url=self.dummy_url, headers=self.dummy_header)
+        actual_resolver_mock.set_params.assert_called_once()
+        actual_resolver_mock.resolve.assert_called_once()
+
+
+        self.assertEqual(offers_result, self.empty_offers_dict)
+
+    def test_ParameterError_when_resolve_and_returns_no_offers(self):
+        exception = ParameterError
+        self.run_uut_and_expectation_for_resolve_when_exception_happens(exception)
+
+    def test_Timeout_when_resolve_and_returns_no_offers(self):
+        exception = Timeout
+        self.run_uut_and_expectation_for_resolve_when_exception_happens(exception)
+
+    def test_ConnectionError_when_resolve_and_returns_no_offers(self):
+        exception = ConnectionError
+        self.run_uut_and_expectation_for_resolve_when_exception_happens(exception)
+
+    def test_ResponseCodeError_when_resolve_and_returns_no_offers(self):
+        exception = ResponseCodeError
+        self.run_uut_and_expectation_for_resolve_when_exception_happens(exception)
+
+    @patch('django_project.search_engine.http.resolver.HttpRequestResolver')
+    @patch('django_project.search_engine.query.provider.itaka.utils.extract_fields')
+    def test_read_single_page_succeeded(self, extract_fields_mock, http_resolver_mock):
+        expected_result ={ "offers": ["parsed_data"]}
+        actual_resolver_mock = Mock(**{'resolve.return_value': "some_jason_data"})
+        http_resolver_mock.return_value = actual_resolver_mock
+        extract_fields_mock.side_effect = [["parsed_data"], None]
+
+        offers_result = self.uut(self.dummy_url, self.dummy_header, self.dummy_params, self.dummy_provide_name)
+        http_resolver_mock.assert_called_with(url=self.dummy_url, headers=self.dummy_header)
+        self.assertEqual(2, actual_resolver_mock.set_params.call_count)
+        self.assertEqual(2, actual_resolver_mock.resolve.call_count)
+        self.assertEqual(2, extract_fields_mock.call_count)
+
+        self.assertEqual(offers_result, expected_result)
+
+    @patch('django_project.search_engine.http.resolver.HttpRequestResolver')
+    @patch('django_project.search_engine.query.provider.itaka.utils.extract_fields')
+    def test_read_3_pages_succeeded(self, extract_fields_mock, http_resolver_mock):
+        expected_result = {"offers": ["parsed_data", "parsed_data2", "parsed_data3"]}
+        actual_resolver_mock = Mock(**{'resolve.return_value': "some_jason_data"})
+        http_resolver_mock.return_value = actual_resolver_mock
+        extract_fields_mock.side_effect = [["parsed_data"], ["parsed_data2"], ["parsed_data3"], None]
+
+        offers_result = self.uut(self.dummy_url, self.dummy_header, self.dummy_params, self.dummy_provide_name)
+        http_resolver_mock.assert_called_with(url=self.dummy_url, headers=self.dummy_header)
+        self.assertEqual(4, actual_resolver_mock.set_params.call_count)
+        self.assertEqual(4, actual_resolver_mock.resolve.call_count)
+        self.assertEqual(4, extract_fields_mock.call_count)
+
+        self.assertEqual(offers_result, expected_result)
+
 
 
 if __name__ == '__main__':

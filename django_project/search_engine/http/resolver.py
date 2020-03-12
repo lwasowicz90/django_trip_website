@@ -24,13 +24,13 @@ class HttpRequestResolver():
         self.adapter = requests.adapters.HTTPAdapter(max_retries=3)
         self.url = url
         self.headers = headers
-        self.params = None
+        self.params = dict()
         self.session = session or requests.Session()
         self.session.mount("http-adapter", self.adapter)
 
     def resolve(self):
-        if not self.params:
-            raise ParameterError(f"Parameters not set for request to {self.url}")
+        if len(self.params) <= 1:
+            raise ParameterError(f"Too little parameters set for request to {self.url}")
 
         response = self.session.get(self.url, params=self.params, headers=self.headers)
 
