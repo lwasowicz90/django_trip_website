@@ -5,9 +5,11 @@ from requests.exceptions import Timeout, ConnectionError
 from django_project.search_engine.http import resolver
 
 def get_http_request_info():
-    today = datetime.datetime.today().strftime('%Y-%m-%d')
+    today = datetime.datetime.today()
+    start_day = today.strftime('%Y-%m-%d')
+    end_day = (today + datetime.timedelta(days=210)).strftime('%Y-%m-%d')
     return {
-        'base_url': 'https://www.itaka.pl/sipl/data/category_ph/search',
+        'base_url': 'https://www.itaka.pl/sipl/data/search-results/search',
         'headers': {
             'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:73.0) Gecko/20100101 Firefox/73.0',
             'Accept': '*/*',
@@ -21,34 +23,22 @@ def get_http_request_info():
             'TE': 'Trailers',
             },
         'params': {
-            'all-inclusive': (
-                ('food', 'allInclusive'),
-                ('order', 'popular'),
-                ),
-            'last-minute': (
-                ('promo', 'lastMinute'),
-                ('order', 'priceAsc'),
-                ('filters', ',departureDate'),
-                ),
-            'common': {
-                'view': 'offerList',
-                'language': 'pl',
-                'package-type': 'wczasy',
-                'adults': '2',
-                'date-from': today,
-                'total-price': '0',
-                'transport': 'bus,flight',
-                'userId': '5a07c37020f6f23385975533eaa36c9a',
-                'filters': 'text,packageType,departureRegion,destinationRegion,dateFrom,dateTo,duration,adultsNumber,childrenAge,price,categoryTypes,promotions,food,standard,facilities,grade,transport,tripActivities,tripDifficultyLevels,beachDistance',
-                'currency': 'PLN',
-                }
-            }
+            'view': 'offerList',
+            'language': 'pl',
+            'adults': '2',
+            'date-from': start_day,
+            'date-to': end_day,
+            'order': 'popular',
+            'total-price': '0',
+            'transport': 'bus,flight',
+            'filters': 'text,packageType,departureRegion,destinationRegion,dateFrom,dateTo,duration,adultsNumber,childrenAge,price,categoryTypes,promotions,food,standard,facilities,grade,transport,tripActivities,tripDifficultyLevels,beachDistance',
+            'currency': 'PLN',
+        }
     }
 
 def extract_fields(orginal_json, provider_name):
     """Take only things that we need"""
     offers_container = orginal_json['data']
-    resolver.logger.debug(f"Found {len(offers_container)} records")
 
     result = []
     for item in offers_container:
@@ -72,7 +62,6 @@ def extract_fields(orginal_json, provider_name):
 
         if not city_name_list:
             resolver.logger.warning("Missing city name! Trying another item.")
-            continue
 
         offer = {
             'provider': provider_name,
@@ -101,6 +90,7 @@ def extract_fields(orginal_json, provider_name):
 
         result.append(offer)
 
+    resolver.logger.info(f"[{provider_name}] Found {len(result)}/{len(offers_container)} correct records on page.")
     return result
 
 

@@ -1,6 +1,6 @@
 from django_project.search_engine.query.provider.itaka import utils
 import unittest
-from unittest.mock import Mock
+from unittest.mock import Mock, MagicMock
 from unittest.mock import patch
 import json
 import pathlib
@@ -10,61 +10,55 @@ import os
 class TestUtils_get_http_request_info(unittest.TestCase):
     def setUp(self):
         self.uut = utils.get_http_request_info
-        self.dummy_date = '2020-09-22'
+        self.dummy_start_date = '2020-09-22'
+        self.dummy_end_date = '2020-10-22'
         self.expected_result = \
             {
-                'base_url': 'https://www.itaka.pl/sipl/data/category_ph/search',
-                'headers':
-                    {
-                        'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:73.0) Gecko/20100101 Firefox/73.0',
-                        'Accept': '*/*',
-                        'Accept-Language': 'en-US,en;q=0.5',
-                        'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
-                        'X-Requested-With': 'XMLHttpRequest',
-                        'DNT': '1',
-                        'Connection': 'keep-alive-',
-                        'Pragma': 'no-cache',
-                        'Cache-Control': 'no-cache',
-                        'TE': 'Trailers',
-                    },
-                'params':
-                    {
-                        'all-inclusive':
-                            (
-                                ('food', 'allInclusive'),
-                                ('order', 'popular'),
-                            ),
-                        'last-minute':
-                            (
-                                ('promo', 'lastMinute'),
-                                ('order', 'priceAsc'),
-                                ('filters', ',departureDate'),
-                            ),
-                        'common':
-                            {
-                                'view': 'offerList',
-                                'language': 'pl',
-                                'package-type': 'wczasy',
-                                'adults': '2',
-                                'date-from': self.dummy_date,
-                                'total-price': '0',
-                                'transport': 'bus,flight',
-                                'userId': '5a07c37020f6f23385975533eaa36c9a',
-                                'filters': 'text,packageType,departureRegion,destinationRegion,dateFrom,dateTo,duration,adultsNumber,childrenAge,price,categoryTypes,promotions,food,standard,facilities,grade,transport,tripActivities,tripDifficultyLevels,beachDistance',
-                                'currency': 'PLN',
-                            }
-                    }
+                'base_url': 'https://www.itaka.pl/sipl/data/search-results/search',
+                'headers': {
+                    'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:73.0) Gecko/20100101 Firefox/73.0',
+                    'Accept': '*/*',
+                    'Accept-Language': 'en-US,en;q=0.5',
+                    'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
+                    'X-Requested-With': 'XMLHttpRequest',
+                    'DNT': '1',
+                    'Connection': 'keep-alive-',
+                    'Pragma': 'no-cache',
+                    'Cache-Control': 'no-cache',
+                    'TE': 'Trailers',
+                },
+                'params': {
+                    'view': 'offerList',
+                    'language': 'pl',
+                    'adults': '2',
+                    'date-from': self.dummy_start_date,
+                    'date-to': self.dummy_end_date,
+                    'order': 'popular',
+                    'total-price': '0',
+                    'transport': 'bus,flight',
+                    'filters': 'text,packageType,departureRegion,destinationRegion,dateFrom,dateTo,duration,adultsNumber,childrenAge,price,categoryTypes,promotions,food,standard,facilities,grade,transport,tripActivities,tripDifficultyLevels,beachDistance',
+                    'currency': 'PLN',
+                }
             }
 
     @patch('django_project.search_engine.query.provider.itaka.utils.datetime')
     def test_get_http_request_info(self, mock_datetime):
-        strftime_mock = Mock()
-        strftime_mock.strftime.return_value = self.dummy_date
-        mock_datetime.datetime.today.return_value = strftime_mock
+        add_result_mock = Mock()
+        add_result_mock.strftime.return_value = self.dummy_end_date
+
+        strftime_mock_1 = MagicMock()
+        strftime_mock_1.__add__.return_value = add_result_mock
+        strftime_mock_1.strftime.return_value = self.dummy_start_date
+        mock_datetime.datetime.today.return_value = strftime_mock_1
+
+        strftime_mock_2 = Mock()
+        mock_datetime.timedelta.return_value = strftime_mock_2
 
         result = self.uut()
         mock_datetime.datetime.today.assert_called_once()
-        strftime_mock.strftime.assert_called_once_with('%Y-%m-%d')
+        strftime_mock_1.strftime.assert_called_once_with('%Y-%m-%d')
+        mock_datetime.timedelta.assert_called_once_with(days=210)
+        add_result_mock.strftime.assert_called_once_with('%Y-%m-%d')
 
         self.assertEqual(result, self.expected_result)
 
