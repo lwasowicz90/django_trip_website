@@ -29,22 +29,18 @@ class TestHttpRequestResolver(unittest.TestCase):
 
         self.assertEqual(result_json, self.json_data)
 
-    # def test_resolve_throw_when_params_not_set(self):
-    #     self.assertRaisesRegex(ParameterError, '.*', self.uut.resolve)
-    #
-    # @unittest.expectedFailure
-    # def test_response_not_valid_if_requests_get_not_succeeded(self):
-    #     response_mock = Mock()
-    #     response_mock.status_code = self.response_NOK
-    #     mock_requests.get.return_value = response_mock
-    #
-    #     self.uut.set_params(self.params)
-    #
-    #     self.uut.resolve()
-    #     mock_requests.get.assert_called_with(self.url, params=self.params, headers=self.headers)
-    #
-    #     self.assertTrue(self.uut.response_is_valid())
-    #
+    def test_resolve_throw_when_params_not_set(self):
+        self.assertRaisesRegex(ParameterError, '.*', self.uut.resolve)
+
+    def test_response_not_valid(self):
+        response_mock = Mock()
+        response_mock.status_code = self.response_NOK
+        self.session_mock.get.return_value = response_mock
+
+        self.uut.set_params(self.params)
+
+        self.assertRaisesRegex(ResponseCodeError, '.*', self.uut.resolve)
+        self.session_mock.get.assert_called_with(self.url, params=self.params, headers=self.headers)
 
 
 if __name__ == '__main__':
