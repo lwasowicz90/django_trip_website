@@ -13,18 +13,18 @@ class ResponseCodeError(ExceptionWithArgument):
 
 class HttpRequestResolver():
     def __init__(self, url, headers, session=None):
-        self.adapter = requests.adapters.HTTPAdapter(max_retries=3)
-        self.url = url
-        self.headers = headers
-        self.params = dict()
-        self.session = session or requests.Session()
-        self.session.mount("http-adapter", self.adapter)
+        self.__adapter = requests.adapters.HTTPAdapter(max_retries=3)
+        self.__url = url
+        self.__headers = headers
+        self.__params = dict()
+        self.__session = session or requests.Session()
+        self.__session.mount("http-adapter", self.__adapter)
 
     def resolve(self):
-        if len(self.params) <= 1:
-            raise ParameterError(f"Too little parameters set for request to {self.url}")
+        if len(self.__params) <= 1:
+            raise ParameterError(f"Too little parameters set for request to {self.__url}")
 
-        response = self.session.get(self.url, params=self.params, headers=self.headers)
+        response = self.__session.get(self.__url, params=self.__params, headers=self.__headers)
 
         if not response.status_code == 200:
             raise ResponseCodeError(f"Incorrect response code: {response.status_code}!")
@@ -32,5 +32,5 @@ class HttpRequestResolver():
         return response.json()
 
     def set_params(self, value):
-        self.params = value
+        self.__params = value
 
