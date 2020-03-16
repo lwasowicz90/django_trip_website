@@ -1,3 +1,4 @@
+from django_project.search_engine.exception.ExceptionWithArgument import ExceptionWithArgument
 import requests
 import logging
 
@@ -9,14 +10,15 @@ formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(messag
 logging_handler.setFormatter(formatter)
 logger.addHandler(logging_handler)
 
-class ParameterError(AssertionError):
-    def __init__(self, msg):
-        self.msg = msg
+
+class ParameterError(ExceptionWithArgument):
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs, name=self.__class__.__name__)
 
 
-class ResponseCodeError(ValueError):
-    def __init__(self, msg):
-        self.msg = msg
+class ResponseCodeError(ExceptionWithArgument):
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs, name=self.__class__.__name__)
 
 
 class HttpRequestResolver():

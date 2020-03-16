@@ -65,7 +65,6 @@ def extract_fields(orginal_json, provider_name):
 
         offer = {
             'provider': provider_name,
-            'canonicalDestinationTitle': item['canonicalDestinationTitle'],
             'country': country_name,
             'city': ', '.join(name for name in city_name_list),
             'meal': item['meal'],
@@ -109,7 +108,7 @@ def get_offers_from_all_pages(url, headers, params, provider_name):
         try:
             offers_json = http_resolver.resolve()
         except resolver.ParameterError as e:
-            resolver.logger.exception(e.msg)
+            resolver.logger.exception(e.description())
             return result
         except Timeout:
             resolver.logger.exception("Timeout when connecting to {provider_name} provider!")
@@ -118,7 +117,7 @@ def get_offers_from_all_pages(url, headers, params, provider_name):
             resolver.logger.exception("Couldn't connect to {provider_name} provider!")
             return result
         except resolver.ResponseCodeError as e:
-            resolver.logger.exception(e.msg)
+            resolver.logger.exception(e.description())
             return result
 
         parsed_offers = extract_fields(offers_json, provider_name)
