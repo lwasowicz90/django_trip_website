@@ -11,13 +11,13 @@ class ResponseCodeError(ExceptionWithArgument):
         super().__init__(*args, **kwargs, name=self.__class__.__name__)
 
 
-class HttpRequestResolver():
-    def __init__(self, url, headers, session=None):
+class HttpRequestResolver:
+    def __init__(self, url, headers):
         self.__adapter = requests.adapters.HTTPAdapter(max_retries=3)
         self.__url = url
         self.__headers = headers
         self.__params = dict()
-        self.__session = session or requests.Session()
+        self.__session = requests.Session()
         self.__session.mount("http-adapter", self.__adapter)
 
     def resolve(self):
