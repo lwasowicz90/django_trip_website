@@ -1,8 +1,8 @@
 import datetime
 from bs4 import BeautifulSoup
 from requests.exceptions import Timeout, ConnectionError
-
 from django_project.search_engine.http import resolver
+from django_project.search_engine.query.provider.itaka.logger import logger
 
 def get_http_request_info():
     today = datetime.datetime.today()
@@ -50,7 +50,7 @@ def extract_fields(orginal_json, provider_name):
         try:
             country_name = location_info[0]
         except IndexError:
-            resolver.logger.warning("Missing country name! Trying another item.")
+            logger.warning("Missing country name! Trying another item.")
             continue
 
         city_name_list = []
@@ -61,7 +61,7 @@ def extract_fields(orginal_json, provider_name):
             city_name_list.append(location_info[i].strip(' /'))
 
         if not city_name_list:
-            resolver.logger.warning("Missing city name!")
+            logger.warning("Missing city name!")
 
         offer = {
             'provider': provider_name,
@@ -90,7 +90,7 @@ def extract_fields(orginal_json, provider_name):
 
         result.append(offer)
 
-    resolver.logger.info(f"[{provider_name}] Found {len(result)}/{len(offers_container)} correct records on page.")
+    logger.info(f"[{provider_name}] Found {len(result)}/{len(offers_container)} correct records on page.")
     return result
 
 
@@ -102,31 +102,31 @@ def get_offers_from_all_pages(url, headers, params, provider_name):
         "offers": []
     }
     while True:
-        resolver.logger.debug(f"Parsing page: {num} of {provider_name} provider.")
+        logger.debug(f"Parsing page number: {num}")
         params['page'] = num
         http_resolver.set_params(params)
         try:
             offers_json = http_resolver.resolve()
         except resolver.ParameterError as e:
-            resolver.logger.exception(e.description())
+            logger.exception(e.description())
             return result
         except Timeout:
-            resolver.logger.exception("Timeout when connecting to {provider_name} provider!")
+            logger.exception("Timeout while connecting!")
             return result
         except ConnectionError:
-            resolver.logger.exception("Couldn't connect to {provider_name} provider!")
+            logger.exception("Couldn't connect to!")
             return result
         except resolver.ResponseCodeError as e:
-            resolver.logger.exception(e.description())
+            logger.exception(e.description())
             return result
 
         parsed_offers = extract_fields(offers_json, provider_name)
         if not parsed_offers:
-            resolver.logger.info(f"No records for page: {num}. Stopping {provider_name} provider.")
+            logger.info(f"No records for page: {num}. Stopping.")
             break
         else:
             result['offers'].extend(parsed_offers)
             num += 1
 
-    resolver.logger.info(f"Found {len(result['offers'])} offers for {provider_name} provider.")
+    logger.info(f"Found {len(result['offers'])} offers.")
     return result
